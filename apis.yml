@@ -1,0 +1,82 @@
+aid: softbank-vision-fund
+name: SoftBank Vision Fund
+description: >-
+  SoftBank Vision Fund (managed by SoftBank Investment Advisers) is one of the
+  world's largest technology-focused investment funds, launched in May 2017 by
+  SoftBank Group and anchored by the Public Investment Fund of Saudi Arabia. Now
+  operating across two funds (SVF1 and SVF2) with combined assets under
+  management reported at roughly $150B+, the fund pursues Masayoshi Son's long
+  "AI economy" thesis, backing high-growth companies across the AI stack:
+  hardware and semiconductors, the software infrastructure to gather, process
+  and deploy data, and the applications built on top of it. It typically writes
+  large late-stage growth checks (Series C/D and beyond, often $100M to several
+  billion) into 300+ companies worldwide, spanning enterprise software, consumer
+  internet, health tech, fintech, logistics, transportation, frontier tech,
+  edtech and proptech across the Americas, EMEA and Asia. Headquartered in
+  London, with major offices in the US and Asia, its portfolio includes many
+  unicorns and household names such as Arm, ByteDance, and Aurora.
+image: https://sb-vf-assets.s3.amazonaws.com/assets/logo_vertical_grey.svg
+x-type: venture-capital
+x-category: Venture Capital
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+tags:
+  - Venture Capital
+  - Growth Equity
+  - Late Stage
+  - Artificial Intelligence
+  - Enterprise Software
+  - Fintech
+  - Health Tech
+  - Global
+apis: []
+common:
+  - type: Website
+    url: https://visionfund.com/
+  - type: Portfolio
+    url: https://visionfund.com/portfolio
+  - type: Portfolio
+    url: portfolio/softbank-vision-fund-portfolio.yml
+  - type: Team
+    url: https://visionfund.com/team
+  - type: Team
+    url: team/softbank-vision-fund-team.yml
+  - type: Blog
+    url: https://visionfund.com/insights
+  - type: Newsletter
+    url: https://visionfund.com/newsletter-signup
+  - type: Jobs
+    url: https://careers.visionfund.com/
+  - type: Contact
+    url: https://visionfund.com/contact
+  - type: Twitter
+    url: https://twitter.com/visionfund
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/softbank-investment-advisers
+  - type: Crunchbase
+    url: https://www.crunchbase.com/organization/softbank-vision-fund
+  - type: Features
+    data:
+      - 'Stage: Late-stage growth (Series C/D and beyond)'
+      - 'Typical check: $100M to several billion (large growth rounds)'
+      - 'Sectors: enterprise software, consumer internet, health tech, fintech, logistics, transportation, frontier tech, edtech, proptech'
+      - 'Geography: Global (Americas, EMEA, Asia)'
+      - 'AUM: ~$150B+ combined across SVF1 and SVF2 (widely reported)'
+      - 'Founded: 2017'
+      - 'HQ: London, United Kingdom'
+      - 'Funds: SVF1 and SVF2'
+      - 'Portfolio: 300+ companies including many unicorns'
+    sources:
+      - https://visionfund.com/
+      - https://visionfund.com/portfolio
+      - https://en.wikipedia.org/wiki/SoftBank_Vision_Fund
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: http://apisjson.org
+  - FN: SoftBank Investment Advisers
+    url: https://visionfund.com/
