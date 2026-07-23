@@ -3,9 +3,9 @@ method: searched
 source: https://visionfund.com/portfolio
 summary:
   portfolio_total: 333
-  in_network: 84
-  api_providers: 52
-  missing: 249
+  in_network: 333
+  api_providers: 87
+  missing: 0
   stubs_created: 0
 companies:
 - name: Guazi
@@ -14,9 +14,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/guazi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guazi
+  slug: guazi
+  matched_by: name-slug
 - name: IonQ
   description: IonQ is building the world’s leading quantum computers to help solve the world’s most complex
     problems.
@@ -34,9 +35,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/platform-science
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: platform-science
+  slug: platform-science
+  matched_by: name-slug
 - name: Qualtrics
   description: Qualtrics is changing the way organizations manage and improve the four core experiences
     of business — customer, employee, product, and brand.
@@ -55,18 +57,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/copilotiq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: copilotiq
+  slug: copilotiq
+  matched_by: name-slug
 - name: PrimaryBid
   description: PrimaryBid is powering inclusivity in the capital markets.
   sector: fintech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/primarybid
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: primarybid
+  slug: primarybid
+  matched_by: name-slug
 - name: Copado
   description: Copado is harnessing DevOps for SaaS applications to power the world&#039;s largest digital
     transformation projects.
@@ -74,9 +78,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/copado
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: copado
+  slug: copado
+  matched_by: name-slug
 - name: Revolut
   description: Revolut is building a financial super app to help customers get more from their money and
     connect people around the world.
@@ -84,9 +89,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/revolut
-  in_network: false
-  is_api_provider: false
-  suggested_slug: revolut
+  in_network: true
+  is_api_provider: true
+  slug: revolut
+  matched_by: name-slug
 - name: Relay Therapeutics
   description: Relay Therapeutics is transforming the drug discovery process with unparalleled insights
     into protein motion.
@@ -94,9 +100,10 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/relay-therapeutics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: relay-therapeutics
+  slug: relay-therapeutics
+  matched_by: name-slug
 - name: Neuron23
   description: Neuron23 is using data and genomics to create precision medicines that fight debilitating
     diseases.
@@ -104,9 +111,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/neuron23
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neuron23
+  slug: neuron23
+  matched_by: name-slug
 - name: JAKA
   description: JAKA Robotics is advancing collaborative robotics to make automation smarter, safer, and
     more flexible.
@@ -114,18 +122,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/jaka
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jaka
+  slug: jaka
+  matched_by: name-slug
 - name: PatPat
   description: PatPat is building an e-commerce platform offering quality kids apparel at affordable prices.
   sector: consumer
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/patpat
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: patpat
+  slug: patpat
+  matched_by: name-slug
 - name: WeWork
   description: WeWork is revolutionizing the way people and companies work.
   sector: proptech
@@ -153,18 +163,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/carro
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carro
+  slug: carro
+  matched_by: name-slug
 - name: Cornami
   description: Cornami is making real-time fully homomorphic encryption possible with its computing architecture.
   sector: frontier-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cornami
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cornami
+  slug: cornami
+  matched_by: name-slug
 - name: Atom Learning
   description: Atom Learning is harnessing adaptive learning tech to provide high quality, affordable
     education.
@@ -172,9 +184,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/atom-learning
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atom-learning
+  slug: atom-learning
+  matched_by: name-slug
 - name: Treasure Data
   description: Treasure Data is building an enterprise CDP to power purposeful engagements for every customer,
     every time.
@@ -192,9 +205,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/tessera-therapeutics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tessera-therapeutics
+  slug: tessera-therapeutics
+  matched_by: name-slug
 - name: Cameo
   description: Cameo is connecting fans directly with their favorite pop culture icons via personalized
     video messages, live calls, and direct messages.
@@ -202,36 +216,40 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cameo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cameo
+  slug: cameo
+  matched_by: name-slug
 - name: 10x Genomics
   description: 10x Genomics is paving the way for a new understanding of biology, human health, and disease.
   sector: health-tech
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/10x-genomics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 10x-genomics
+  slug: 10x-genomics
+  matched_by: name-slug
 - name: Spotter
   description: Spotter is providing financing to YouTube creators to grow or diversify their business.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/spotter
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spotter
+  slug: spotter
+  matched_by: name-slug
 - name: Oosto
   description: Oosto is deploying AI-driven computer vision to make the world a safer place.
   sector: enterprise
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/oosto
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oosto
+  slug: oosto
+  matched_by: name-slug
 - name: Enpal
   description: Enpal is building renewable communities by making green energy accessible and affordable
     for everyone.
@@ -239,18 +257,20 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/enpal
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: enpal
+  slug: enpal
+  matched_by: name-slug
 - name: Kabbage
   description: Kabbage is empowering small businesses through straightforward, flexible access to capital.
   sector: fintech
   region: Americas
   status: acquired
   source: https://visionfund.com/portfolio/kabbage
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kabbage
+  slug: kabbage
+  matched_by: name-slug
 - name: ShipBob
   description: ShipBob is providing global fulfillment so e-commerce brands can focus on growing their
     business.
@@ -268,18 +288,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/karius
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: karius
+  slug: karius
+  matched_by: name-slug
 - name: LegalOn
   description: LegalOn is using AI to improve the quality and efficiency of corporate legal operations.
   sector: enterprise
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/legalon
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: legalon
+  slug: legalon
+  matched_by: name-slug
 - name: Eigencomm
   description: Eigencomm is building cellular chips and software to power the growth of the Internet of
     Things.
@@ -287,18 +309,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/eigencomm
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eigencomm
+  slug: eigencomm
+  matched_by: name-slug
 - name: Paper
   description: Paper is partnering with school districts to provide students with on-demand academic support.
   sector: edtech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/paper
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paper
+  slug: paper
+  matched_by: name-slug
 - name: M1 Finance
   description: M1 Finance is building a finance super app to help people manage and grow their money with
     control and automation.
@@ -317,9 +341,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/attentive
-  in_network: false
-  is_api_provider: false
-  suggested_slug: attentive
+  in_network: true
+  is_api_provider: true
+  slug: attentive
+  matched_by: name-slug
 - name: Reibus
   description: Reibus is utilizing technology to solve ingrained supply chain problems in the industrial
     material market.
@@ -327,9 +352,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/reibus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reibus
+  slug: reibus
+  matched_by: name-slug
 - name: Remote
   description: Remote is managing international payroll, benefits, taxes and stock options for distributed
     teams.
@@ -337,9 +363,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/remote
-  in_network: false
-  is_api_provider: false
-  suggested_slug: remote
+  in_network: true
+  is_api_provider: true
+  slug: remote
+  matched_by: name-slug
 - name: Apollo Agriculture
   description: Apollo Agriculture is a farming platform that helps small-scale farmers maximize their
     profits.
@@ -347,9 +374,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/apollo-agriculture
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apollo-agriculture
+  slug: apollo-agriculture
+  matched_by: name-slug
 - name: SambaNova
   description: SambaNova is building the industry’s only full-stack solution designed to run AI applications
     from the data center to the cloud and to the edge.
@@ -367,27 +395,30 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/ourcrowd
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ourcrowd
+  slug: ourcrowd
+  matched_by: name-slug
 - name: Vestiaire Collective
   description: Vestiaire Collective is transforming the fashion industry for a more sustainable future.
   sector: consumer
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/vestiaire-collective
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vestiaire-collective
+  slug: vestiaire-collective
+  matched_by: name-slug
 - name: Gaussian Robotics
   description: Gaussian Robotics is developing autonomous robots for commercial property cleaning.
   sector: frontier-tech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/gaussian-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gaussian-robotics
+  slug: gaussian-robotics
+  matched_by: name-slug
 - name: Clikalia
   description: Clikalia is bringing digitalization and transparency to real estate in Europe and Latin
     America.
@@ -395,9 +426,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/clikalia
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clikalia
+  slug: clikalia
+  matched_by: name-slug
 - name: Automation Anywhere
   description: Automation Anywhere is empowering customers to automate business processes with intelligent
     software bots.
@@ -415,36 +447,40 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/ainnovation
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ainnovation
+  slug: ainnovation
+  matched_by: name-slug
 - name: Aculys
   description: Aculys is developing and commercializing new drugs for neurology and psychiatry in Japan.
   sector: health-tech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/aculys
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aculys
+  slug: aculys
+  matched_by: name-slug
 - name: DICE
   description: DICE is connecting fans to live shows and streams spanning music, arts and culture.
   sector: consumer
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/dice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dice
+  slug: dice
+  matched_by: name-slug
 - name: Behavox
   description: Behavox is using AI to help businesses uncover and address hidden regulatory risks.
   sector: enterprise
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/behavox
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: behavox
+  slug: behavox
+  matched_by: name-slug
 - name: Fourier Intelligence
   description: Fourier Intelligence is developing robotics that improve rehabilitation from injury and
     enhance well being.
@@ -452,36 +488,40 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/fourier-intelligence
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fourier-intelligence
+  slug: fourier-intelligence
+  matched_by: name-slug
 - name: CMR Surgical
   description: CMR Surgical is transforming keyhole surgery with next-generation surgical robotics.
   sector: health-tech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/cmr-surgical
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cmr-surgical
+  slug: cmr-surgical
+  matched_by: name-slug
 - name: Delhivery
   description: Delhivery is disrupting the supply chain across India one shipment at a time.
   sector: logistics
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/delhivery
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: delhivery
+  slug: delhivery
+  matched_by: name-slug
 - name: Perch
   description: Perch is acquiring and operating top Amazon third-party and D2C brands at scale.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/perch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perch
+  slug: perch
+  matched_by: name-slug
 - name: Whatfix
   description: Whatfix is helping businesses improve productivity by increasing employee adoption of software.
   sector: enterprise
@@ -498,9 +538,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/creditas
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: creditas
+  slug: creditas
+  matched_by: name-slug
 - name: Whoop
   description: Whoop is unlocking human performance.
   sector: consumer
@@ -518,9 +559,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/hexagon-bio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hexagon-bio
+  slug: hexagon-bio
+  matched_by: name-slug
 - name: View
   description: View is transforming real estate through dynamic glass windows that enhance human health,
     increase productivity, and save energy.
@@ -528,18 +570,20 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/view
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: view
+  slug: view
+  matched_by: name-slug
 - name: 360Learning
   description: 360Learning is empowering companies to drive culture and growth through collaborative learning.
   sector: edtech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/360learning
-  in_network: false
-  is_api_provider: false
-  suggested_slug: 360learning
+  in_network: true
+  is_api_provider: true
+  slug: 360learning
+  matched_by: name-slug
 - name: Chime
   description: Chime is driving innovation, inclusion, and access across the banking industry.
   sector: fintech
@@ -557,9 +601,10 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/full-truck-alliance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: full-truck-alliance
+  slug: full-truck-alliance
+  matched_by: name-slug
 - name: Hesi
   description: Hesi is helping companies manage costs more efficiently through its expense management
     platform.
@@ -567,18 +612,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/hesi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hesi
+  slug: hesi
+  matched_by: name-slug
 - name: Trax
   description: Trax is harnessing the power of digital technologies for brands, retailers, and shoppers.
   sector: enterprise
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/trax
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trax
+  slug: trax
+  matched_by: name-slug
 - name: Cloudbeds
   description: Cloudbeds is providing hotel owners with an integrated platform to manage and grow their
     business.
@@ -597,9 +644,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/oyo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oyo
+  slug: oyo
+  matched_by: name-slug
 - name: Ola
   description: Ola is on a mission to build mobility for a billion people.
   sector: transportation
@@ -627,9 +675,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/lumicks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lumicks
+  slug: lumicks
+  matched_by: name-slug
 - name: Gelato
   description: Gelato is empowering the creator economy to deliver customized products in a sustainable
     way.
@@ -648,36 +697,40 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/proximie
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proximie
+  slug: proximie
+  matched_by: name-slug
 - name: Neumora
   description: Neumora is pioneering precision medicines for brain diseases through its data-driven platform.
   sector: health-tech
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/neumora
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neumora
+  slug: neumora
+  matched_by: name-slug
 - name: Dewpoint
   description: Dewpoint is translating condensate biology into much-needed medicines.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/dewpoint
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dewpoint
+  slug: dewpoint
+  matched_by: name-slug
 - name: Dianxiaomi
   description: Dianxiaomi is making cross-border e-commerce more efficient through its suite of SaaS products.
   sector: enterprise
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/dianxiaomi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dianxiaomi
+  slug: dianxiaomi
+  matched_by: name-slug
 - name: Vianai Systems
   description: Vianai Systems is creating a human-centered AI platform to address the unfulfilled promise
     of enterprise AI.
@@ -685,9 +738,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/vianai-systems
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vianai-systems
+  slug: vianai-systems
+  matched_by: name-slug
 - name: Classiq
   description: Classiq is revolutionizing quantum software development by automating and synthesizing
     quantum algorithms for any hardware.
@@ -715,9 +769,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/fabric
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabric
+  slug: fabric
+  matched_by: name-slug
 - name: CertiK
   description: CertiK is enabling web3 and blockchain applications to be built with security and accuracy
     in mind.
@@ -725,18 +780,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/certik
-  in_network: false
-  is_api_provider: false
-  suggested_slug: certik
+  in_network: true
+  is_api_provider: true
+  slug: certik
+  matched_by: name-slug
 - name: Beisen
   description: Beisen is helping organizations manage their human capital through its SaaS platform.
   sector: enterprise
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/beisen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beisen
+  slug: beisen
+  matched_by: name-slug
 - name: Sendoso
   description: Sendoso is helping companies stand out with customers and employees through personalized
     gift-giving.
@@ -755,9 +812,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/quantstamp
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quantstamp
+  slug: quantstamp
+  matched_by: name-slug
 - name: Unifonic
   description: Unifonic is streamlining customer engagement for companies to create remarkable omnichannel
     experiences.
@@ -765,9 +823,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/unifonic
-  in_network: false
-  is_api_provider: false
-  suggested_slug: unifonic
+  in_network: true
+  is_api_provider: true
+  slug: unifonic
+  matched_by: name-slug
 - name: Beike
   description: Beike is a leading integrated online and offline platform for housing transactions and
     services.
@@ -775,9 +834,10 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/beike
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beike
+  slug: beike
+  matched_by: name-slug
 - name: SODA
   description: SODA is building an e-commerce platform for secondhand sneakers, streetwear, and luxury
     brand products.
@@ -785,9 +845,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/soda
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soda
+  slug: soda
+  matched_by: name-slug
 - name: Klarna
   description: Klarna is enabling consumers to shop, pay, and bank in a smarter way.
   sector: fintech
@@ -804,9 +865,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/rimac
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rimac
+  slug: rimac
+  matched_by: name-slug
 - name: Advance Intelligence Group
   description: Advance Intelligence is providing AI-powered financial services for consumers and enterprises
     across Asia.
@@ -814,27 +876,30 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/advance-intelligence-group
-  in_network: false
-  is_api_provider: false
-  suggested_slug: advance-intelligence-group
+  in_network: true
+  is_api_provider: true
+  slug: advance-intelligence-group
+  matched_by: name-slug
 - name: Vuori
   description: Vuori is making premium performance apparel inspired by the active Coastal California lifestyle.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/vuori
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vuori
+  slug: vuori
+  matched_by: name-slug
 - name: Ola Electric
   description: Ola Electric is driving India’s EV adoption at scale.
   sector: transportation
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/ola-electric
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ola-electric
+  slug: ola-electric
+  matched_by: name-slug
 - name: Forto
   description: Forto is digitizing logistics to deliver a highly transparent, frictionless, and sustainable
     global supply chain.
@@ -852,18 +917,20 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/getyourguide
-  in_network: false
-  is_api_provider: false
-  suggested_slug: getyourguide
+  in_network: true
+  is_api_provider: true
+  slug: getyourguide
+  matched_by: name-slug
 - name: Zum
   description: Zūm is reimagining student transportation through its cloud-based platform.
   sector: transportation
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/zum
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zum
+  slug: zum
+  matched_by: name-slug
 - name: Labelbox
   description: Labelbox is building a collaborative training data platform for AI applications.
   sector: enterprise
@@ -880,9 +947,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/firework
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: firework
+  slug: firework
+  matched_by: name-slug
 - name: Lenskart
   description: Lenskart is giving millions of people access to quality, affordable eyewear online, in
     store and at home.
@@ -890,18 +958,20 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/lenskart
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lenskart
+  slug: lenskart
+  matched_by: name-slug
 - name: Policybazaar
   description: Policybazaar is making insurance in India fair, transparent and sustainable.
   sector: fintech
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/policybazaar
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: policybazaar
+  slug: policybazaar
+  matched_by: name-slug
 - name: Runway
   description: Runway is building foundational AI research models and creative tools towards a new production
     paradigm.
@@ -920,9 +990,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/emeritus
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: emeritus
+  slug: emeritus
+  matched_by: name-slug
 - name: bKash
   description: bKash is building a digital financial platform to broaden access to financial services
     in Bangladesh.
@@ -930,9 +1001,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/bkash
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bkash
+  slug: bkash
+  matched_by: name-slug
 - name: Rappi
   description: Rappi is a super app for Latin America that delivers virtually everything.
   sector: logistics
@@ -949,9 +1021,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/dcg
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dcg
+  slug: dcg
+  matched_by: name-slug
 - name: Fungible
   description: Fungible is aiming to revolutionize the performance, reliability and economics of data
     centers at all scales.
@@ -959,9 +1032,10 @@ companies:
   region: Americas
   status: acquired
   source: https://visionfund.com/portfolio/fungible
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fungible
+  slug: fungible
+  matched_by: name-slug
 - name: Pantheon
   description: Pantheon is providing a better way to build modern websites that deliver extraordinary
     results.
@@ -979,9 +1053,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/shoplazza
-  in_network: false
-  is_api_provider: false
-  suggested_slug: shoplazza
+  in_network: true
+  is_api_provider: true
+  slug: shoplazza
+  matched_by: name-slug
 - name: Sierra
   description: Sierra is enabling enterprises to transform customer service interactions with AI agents.
   sector: enterprise
@@ -999,27 +1074,30 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/adverity
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: adverity
+  slug: adverity
+  matched_by: name-slug
 - name: Zuoyebang
   description: Zuoyebang is educating students across China through its mobile study platform.
   sector: edtech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/zuoyebang
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zuoyebang
+  slug: zuoyebang
+  matched_by: name-slug
 - name: Fanatics
   description: Fanatics is changing the way fans purchase their favorite team apparel.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/fanatics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fanatics
+  slug: fanatics
+  matched_by: name-slug
 - name: Fountain
   description: Fountain is helping enterprises find and hire talent through smart, fast, and seamless
     recruiting.
@@ -1027,18 +1105,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/fountain
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fountain
+  slug: fountain
+  matched_by: name-slug
 - name: bloXroute
   description: bloXroute is enabling faster transaction speeds for customers in DeFi Trading.
   sector: fintech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/bloxroute
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bloxroute
+  slug: bloxroute
+  matched_by: name-slug
 - name: Zopa
   description: Zopa is helping consumers improve their financial health by changing the way they borrow
     and save.
@@ -1046,9 +1126,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/zopa
-  in_network: false
-  is_api_provider: false
-  suggested_slug: zopa
+  in_network: true
+  is_api_provider: true
+  slug: zopa
+  matched_by: name-slug
 - name: Recursion
   description: Recursion Pharmaceuticals is using AI to accelerate the precision design and development
     of transformational medicines.
@@ -1056,9 +1137,10 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/recursion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recursion
+  slug: recursion
+  matched_by: name-slug
 - name: Papa
   description: Papa is improving health and everyday life through a new model of at-home companionship
     and care.
@@ -1077,18 +1159,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/vipthink
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vipthink
+  slug: vipthink
+  matched_by: name-slug
 - name: Block Renovation
   description: Block Renovation is creating a seamless and predictable experience for home renovations.
   sector: proptech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/block-renovation
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: block-renovation
+  slug: block-renovation
+  matched_by: name-slug
 - name: Berkshire Grey
   description: Berkshire Grey is automating the supply chain with intelligent enterprise robotics.
   sector: logistics
@@ -1106,27 +1190,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/devoted-health
-  in_network: false
-  is_api_provider: false
-  suggested_slug: devoted-health
+  in_network: true
+  is_api_provider: true
+  slug: devoted-health
+  matched_by: name-slug
 - name: GoStudent
   description: GoStudent is providing online private tutoring to primary, secondary and college-aged students.
   sector: edtech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/gostudent
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gostudent
+  slug: gostudent
+  matched_by: name-slug
 - name: Arkose Labs
   description: Arkose Labs is providing technology solutions to fight cybercrime and fraud.
   sector: enterprise
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/arkose-labs
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arkose-labs
+  in_network: true
+  is_api_provider: true
+  slug: arkose-labs
+  matched_by: name-slug
 - name: Opentrons
   description: Opentrons is building an open-source robotics platform to accelerate life sciences innovation.
   sector: frontier-tech
@@ -1143,18 +1230,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/icertis
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: icertis
+  slug: icertis
+  matched_by: name-slug
 - name: Leah
   description: Leah is helping legal professionals around the world to digitally transform their operations.
   sector: enterprise
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/leah
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leah
+  slug: leah
+  matched_by: name-slug
 - name: Aleo
   description: Aleo is building the next generation developer platform for enabling absolute privacy on
     blockchains.
@@ -1164,7 +1253,7 @@ companies:
   source: https://visionfund.com/portfolio/aleo
   slug: aleo
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Job&Talent
   description: Job&amp;Talent is changing the global marketplace for temporary work, improving job security
@@ -1173,9 +1262,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/jobandtalent
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: job-and-talent
+  slug: job-and-talent
+  matched_by: name-slug
 - name: Observe.AI
   description: Observe.AI is empowering contact centers with AI to improve customer experience and drive
     revenue.
@@ -1183,36 +1273,40 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/observe-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: observeai
+  slug: observeai
+  matched_by: name-slug
 - name: Perk
   description: Perk is using AI to pioneer the future of business travel for small and midsize companies.
   sector: enterprise
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/perk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: perk
+  slug: perk
+  matched_by: name-slug
 - name: Mathem
   description: Mathem is optimizing e-grocery to champion service, affordability, and freshness for customers.
   sector: consumer
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/mathem
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mathem
+  slug: mathem
+  matched_by: name-slug
 - name: Airtime
   description: Airtime is creating a new way to communicate via video.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/airtime
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airtime
+  slug: airtime
+  matched_by: name-slug
 - name: Xiaopangxiong
   description: Xiaopangxiong is providing a one-stop B2B e-commerce platform for home and office renovation
     material.
@@ -1220,9 +1314,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/xiaopangxiong
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xiaopangxiong
+  slug: xiaopangxiong
+  matched_by: name-slug
 - name: Manticore Games
   description: Manticore Games is creating a digital playground and community designed to unleash imagination
     and new play experiences.
@@ -1230,9 +1325,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/manticore-games
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manticore-games
+  slug: manticore-games
+  matched_by: name-slug
 - name: Quris
   description: Quris is harnessing Bio-AI clinical prediction to make drug development safer, faster,
     and more cost-effective.
@@ -1240,9 +1336,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/quris
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: quris
+  slug: quris
+  matched_by: name-slug
 - name: AI Medical Service
   description: AI Medical Service is using AI to improve the accuracy of endoscopic exams in detecting
     early-stage cancer.
@@ -1250,9 +1347,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/ai-medical-service
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ai-medical-service
+  slug: ai-medical-service
+  matched_by: name-slug
 - name: CoachHub
   description: CoachHub is transforming people and organizations through its scalable, digital coaching
     programs.
@@ -1260,9 +1358,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/coachhub
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coachhub
+  slug: coachhub
+  matched_by: name-slug
 - name: Clarity AI
   description: Clarity AI is pioneering tech-based sustainability decision-making for how we invest, buy
     and live.
@@ -1270,9 +1369,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/clarity-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clarity-ai
+  slug: clarity-ai
+  matched_by: name-slug
 - name: Sense
   description: Sense is helping companies simplify and personalize recruiting through AI-driven talent
     engagement.
@@ -1301,9 +1401,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/kitopi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kitopi
+  slug: kitopi
+  matched_by: name-slug
 - name: Synthego
   description: Synthego uses genome engineering to accelerate life science R&amp;D in pursuit of improved
     human health.
@@ -1311,9 +1412,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/synthego
-  in_network: false
-  is_api_provider: false
-  suggested_slug: synthego
+  in_network: true
+  is_api_provider: true
+  slug: synthego
+  matched_by: name-slug
 - name: C2FO
   description: C2FO is working to deliver a future where every company in the world has the capital they
     need to grow.
@@ -1321,9 +1423,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/c2fo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: c2fo
+  slug: c2fo
+  matched_by: name-slug
 - name: Eightfold AI
   description: Eightfold AI is using AI and machine learning to help enterprises hire, retain, and grow
     a diverse global workforce.
@@ -1342,9 +1445,10 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/firstcry
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: firstcry
+  slug: firstcry
+  matched_by: name-slug
 - name: Energy Vault
   description: Energy Vault is transforming energy storage technology by enabling renewables to deliver
     around-the-clock power.
@@ -1352,9 +1456,10 @@ companies:
   region: EMEA
   status: ipo
   source: https://visionfund.com/portfolio/energy-vault
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: energy-vault
+  slug: energy-vault
+  matched_by: name-slug
 - name: DayOne
   description: DayOne is delivering next-gen digital infrastructure to power the world’s most connected
     industries.
@@ -1362,9 +1467,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/dayone
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dayone
+  slug: dayone
+  matched_by: name-slug
 - name: Deep Genomics
   description: Deep Genomics is using AI and machine learning to program safe and effective RNA therapies
     for genetic diseases.
@@ -1372,18 +1478,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/deep-genomics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: deep-genomics
+  slug: deep-genomics
+  matched_by: name-slug
 - name: ElasticRun
   description: ElasticRun is a B2B e-commerce platform connecting brands to rural consumers.
   sector: enterprise
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/elasticrun
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elasticrun
+  slug: elasticrun
+  matched_by: name-slug
 - name: DoorDash
   description: DoorDash is connecting people with the best in their cities.
   sector: logistics
@@ -1400,18 +1508,20 @@ companies:
   region: EMEA
   status: ipo
   source: https://visionfund.com/portfolio/autostore
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: autostore
+  slug: autostore
+  matched_by: name-slug
 - name: Vivid
   description: Vivid is building a financial community where customers can bank, save, invest, and learn.
   sector: fintech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/vivid
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vivid
+  slug: vivid
+  matched_by: name-slug
 - name: Sorare
   description: Sorare is creating a new fantasy football experience to become ‘the game within the game.’
   sector: consumer
@@ -1439,27 +1549,30 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/ziroom
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ziroom
+  slug: ziroom
+  matched_by: name-slug
 - name: Envelop Risk
   description: Envelop Risk is building the next generation of cyber reinsurance products.
   sector: fintech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/envelop-risk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: envelop-risk
+  slug: envelop-risk
+  matched_by: name-slug
 - name: Zeta
   description: Zeta is modernizing the software stack for banks.
   sector: fintech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/zeta
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zeta
+  slug: zeta
+  matched_by: name-slug
 - name: Jellysmack
   description: Jellysmack is using technology to identify and develop some of the world’s most talented
     video creators.
@@ -1467,9 +1580,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/jellysmack
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jellysmack
+  slug: jellysmack
+  matched_by: name-slug
 - name: MapBox
   description: MapBox is using precise location data to change the way we navigate the world.
   sector: enterprise
@@ -1486,9 +1600,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/vnlife
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vnlife
+  slug: vnlife
+  matched_by: name-slug
 - name: Plexium
   description: Plexium is harnessing cell-based screening to develop new targeted protein degradation
     therapies.
@@ -1496,18 +1611,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/plexium
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plexium
+  slug: plexium
+  matched_by: name-slug
 - name: Nauto
   description: Nauto is using AI to make driving safer and smarter.
   sector: transportation
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/nauto
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nauto
+  slug: nauto
+  matched_by: name-slug
 - name: InterVenn
   description: InterVenn is leveraging an AI-powered clinical technology for glycoproteomics to transform
     healthcare.
@@ -1515,9 +1632,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/intervenn
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intervenn
+  slug: intervenn
+  matched_by: name-slug
 - name: Uber
   description: Uber is igniting opportunity by setting the world in motion.
   sector: transportation
@@ -1544,9 +1662,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/ezcater
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ezcater
+  slug: ezcater
+  matched_by: name-slug
 - name: Insitro
   description: Insitro is using machine learning and data generation at scale to transform the way that
     drugs are discovered and delivered to patients.
@@ -1554,9 +1673,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/insitro
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insitro
+  slug: insitro
+  matched_by: name-slug
 - name: Yanolja
   description: Yanolja is making booking travel and hospitality services more convenient through its travel
     super app.
@@ -1564,9 +1684,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/yanolja
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yanolja
+  slug: yanolja
+  matched_by: name-slug
 - name: Flexport
   description: Flexport is using technology and data to make global trade easier and more accessible for
     everyone.
@@ -1595,18 +1716,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/funding-societies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: funding-societies
+  slug: funding-societies
+  matched_by: name-slug
 - name: Futurtec
   description: Futurtec is building an orthopedic surgery robotics platform to improve surgical efficiency.
   sector: health-tech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/futurtec
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: futurtec
+  slug: futurtec
+  matched_by: name-slug
 - name: GoPuff
   description: GoPuff is becoming the go-to solution for immediate, everyday needs.
   sector: logistics
@@ -1623,72 +1746,80 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/righthand-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: righthand-robotics
+  slug: righthand-robotics
+  matched_by: name-slug
 - name: Fetch
   description: Fetch is making it easy and fun for shoppers to earn rewards on everyday purchases.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/fetch
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fetch
+  slug: fetch
+  matched_by: name-slug
 - name: ArsenalBio
   description: ArsenalBio is fighting cancer by developing next generation T cell therapies.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/arsenalbio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arsenalbio
+  slug: arsenalbio
+  matched_by: name-slug
 - name: Klook
   description: Klook is connecting the best of what a destination has to offer with travelers worldwide.
   sector: consumer
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/klook
-  in_network: false
-  is_api_provider: false
-  suggested_slug: klook
+  in_network: true
+  is_api_provider: true
+  slug: klook
+  matched_by: name-slug
 - name: Pacaso
   description: Pacaso is modernizing how people buy and own a second home.
   sector: proptech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/pacaso
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pacaso
+  slug: pacaso
+  matched_by: name-slug
 - name: MODIVO
   description: MODIVO is forging the future of fashion tech in Central and Eastern Europe.
   sector: consumer
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/modivo
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: modivo
+  slug: modivo
+  matched_by: name-slug
 - name: LevelBlue
   description: LevelBlue is ending cyber attacks on the endpoint and across the enterprise.
   sector: enterprise
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/level-blue
-  in_network: false
-  is_api_provider: false
-  suggested_slug: levelblue
+  in_network: true
+  is_api_provider: true
+  slug: levelblue
+  matched_by: name-slug
 - name: Loggi
   description: Loggi is using technology to connect Brazil and reinvent logistics.
   sector: logistics
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/loggi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: loggi
+  slug: loggi
+  matched_by: name-slug
 - name: Permutive
   description: Permutive is rethinking data to deliver personalized advertising experiences and protect
     privacy.
@@ -1696,9 +1827,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/permutive
-  in_network: false
-  is_api_provider: false
-  suggested_slug: permutive
+  in_network: true
+  is_api_provider: true
+  slug: permutive
+  matched_by: name-slug
 - name: Tines
   description: Tines is empowering security and IT teams to build and manage critical workflows without
     writing a single line of code.
@@ -1716,9 +1848,10 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/ping-an-good-doctor
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ping-an-good-doctor
+  slug: ping-an-good-doctor
+  matched_by: name-slug
 - name: Pixis
   description: Pixis provides businesses with end-to-end, codeless AI infrastructure to optimize demand
     generation.
@@ -1726,27 +1859,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/pixis
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pixis
+  slug: pixis
+  matched_by: name-slug
 - name: Cruise
   description: Cruise is seeking to build the world’s most advanced self-driving vehicles.
   sector: transportation
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cruise
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cruise
+  slug: cruise
+  matched_by: name-slug
 - name: OSIsoft
   description: OSIsoft is helping people transform their world through data.
   sector: enterprise
   region: Americas
   status: acquired
   source: https://visionfund.com/portfolio/osisoft
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: osisoft
+  slug: osisoft
+  matched_by: name-slug
 - name: Paytm
   description: Paytm is working to bring half a billion Indians into the mainstream economy through payments,
     commerce, and financial services.
@@ -1774,27 +1910,30 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/zomato
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zomato
+  slug: zomato
+  matched_by: name-slug
 - name: InMobi
   description: InMobi is helping brands understand, identify, engage, and acquire consumers.
   sector: enterprise
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/inmobi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: inmobi
+  slug: inmobi
+  matched_by: name-slug
 - name: Digits
   description: Digits is building finance tools powered by their proprietary Living Model technology.
   sector: fintech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/digits
-  in_network: false
-  is_api_provider: false
-  suggested_slug: digits
+  in_network: true
+  is_api_provider: true
+  slug: digits
+  matched_by: name-slug
 - name: Soul Machines
   description: Soul Machines is creating autonomously animated digital humans to create personalized customer
     experiences.
@@ -1802,9 +1941,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/soul-machines
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: soul-machines
+  slug: soul-machines
+  matched_by: name-slug
 - name: WorkBoard
   description: WorkBoard is helping organizations define, align, and manage strategic outcomes more efficiently
     through its OKR platform and services.
@@ -1812,18 +1952,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/workboard
-  in_network: false
-  is_api_provider: false
-  suggested_slug: workboard
+  in_network: true
+  is_api_provider: true
+  slug: workboard
+  matched_by: name-slug
 - name: Ethos
   description: Ethos is providing a faster, better, and easier life insurance experience for customers.
   sector: fintech
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/ethos
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ethos
+  slug: ethos
+  matched_by: name-slug
 - name: Tractable
   description: Tractable is applying AI computer vision to digitize property and casualty claims management
     and condition assessment for cars and homes.
@@ -1841,9 +1983,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/leyden-labs
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: leyden-labs
+  slug: leyden-labs
+  matched_by: name-slug
 - name: Blockdaemon
   description: Blockdaemon is building cutting-edge infrastructure to power the blockchain economy.
   sector: fintech
@@ -1860,9 +2003,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/poolside
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poolside
+  slug: poolside
+  matched_by: name-slug
 - name: RapidAPI
   description: RapidAPI is empowering developers and enterprises to innovate and build software faster
     with APIs.
@@ -1880,9 +2024,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cambridge-mobile-telematics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cambridge-mobile-telematics
+  slug: cambridge-mobile-telematics
+  matched_by: name-slug
 - name: Clearco
   description: Clearco is providing capital, advice, and other services to help founders grow their e-commerce
     businesses.
@@ -1890,9 +2035,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/clearco
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clearco
+  slug: clearco
+  matched_by: name-slug
 - name: Ping An HealthKonnect
   description: Ping An HealthKonnect is building a tech-enabled managed care platform for providers of
     insurance and medical services.
@@ -1900,18 +2046,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/ping-an-healthkonnect
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ping-an-healthkonnect
+  slug: ping-an-healthkonnect
+  matched_by: name-slug
 - name: Sobot
   description: Sobot is helping businesses to improve the efficiency and quality of their customer contact.
   sector: enterprise
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/sobot
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sobot
+  in_network: true
+  is_api_provider: true
+  slug: sobot
+  matched_by: name-slug
 - name: Flipkart
   description: Flipkart is bringing more than 30 million products to Indian consumers via its e-commerce
     marketplace.
@@ -1919,45 +2067,50 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/flipkart
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flipkart
+  slug: flipkart
+  matched_by: name-slug
 - name: ZhongAn Insurance
   description: ZhongAn Insurance is applying technology to upgrade the insurance value chain.
   sector: fintech
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/zhongan-insurance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zhongan-insurance
+  slug: zhongan-insurance
+  matched_by: name-slug
 - name: XAG
   description: XAG is scaling agriculture production by integrating AI and drones into farming practices.
   sector: frontier-tech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/xag
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xag
+  slug: xag
+  matched_by: name-slug
 - name: Paack
   description: Paack is harnessing advanced robotics to set new standards in last-mile delivery.
   sector: logistics
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/paack
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paack
+  slug: paack
+  matched_by: name-slug
 - name: NAVER Z
   description: NAVER Z is creating a metaverse for users to connect and create with one another.
   sector: consumer
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/naverz
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: naver-z
+  slug: naver-z
+  matched_by: name-slug
 - name: Opendoor
   description: Opendoor is reinventing the way people buy and sell their homes.
   sector: proptech
@@ -1984,9 +2137,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/improbable
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: improbable
+  slug: improbable
+  matched_by: name-slug
 - name: OneTrust
   description: OneTrust is operationalizing trust for companies through its privacy, security and compliance
     platform.
@@ -2005,45 +2159,50 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/trendyol
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trendyol
+  slug: trendyol
+  matched_by: name-slug
 - name: OneConnect
   description: OneConnect is making finance easier for small and medium-sized financial institutions.
   sector: fintech
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/oneconnect
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oneconnect
+  slug: oneconnect
+  matched_by: name-slug
 - name: Embark
   description: Embark is building a genetics discovery engine for personalized dog care.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/embark
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: embark
+  slug: embark
+  matched_by: name-slug
 - name: Weee!
   description: Weee! is providing value and convenience for locally sourced and hard-to-find ethnic groceries.
   sector: logistics
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/weee
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: weee
+  slug: weee
+  matched_by: name-slug
 - name: Aurora
   description: Aurora is delivering the benefits of self-driving technology safely, quickly, and broadly.
   sector: transportation
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/aurora
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aurora
+  slug: aurora
+  matched_by: name-slug
 - name: Perplexity
   description: Perplexity AI is redefining web search with AI-powered answers, delivering knowledge with
     clarity and trust.
@@ -2061,9 +2220,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/bytedance
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bytedance
+  slug: bytedance
+  matched_by: name-slug
 - name: Compass
   description: Compass is building the real estate industry&#039;s first-ever end-to-end platform.
   sector: proptech
@@ -2102,9 +2262,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/flock-freight
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flock-freight
+  slug: flock-freight
+  matched_by: name-slug
 - name: Abogen
   description: Abogen is developing mRNA-based therapeutics for the treatment of cancer and infectious
     diseases.
@@ -2112,9 +2273,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/abogen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abogen
+  slug: abogen
+  matched_by: name-slug
 - name: Standard AI
   description: Standard AI is transforming existing retail stores into checkout-free experiences by using
     computer vision and AI.
@@ -2122,9 +2284,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/standard-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: standard-ai
+  slug: standard-ai
+  matched_by: name-slug
 - name: Tempo
   description: Tempo is providing personalized training through smart home gyms with 3D sensors and artificial
     intelligence.
@@ -2142,36 +2305,40 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/extend
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: extend
+  slug: extend
+  matched_by: name-slug
 - name: Variant Bio
   description: Variant Bio is developing therapies to improve global health by studying human genetics.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/variant-bio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: variant-bio
+  slug: variant-bio
+  matched_by: name-slug
 - name: Picsart
   description: Picsart is making it easy for creators to quickly make compelling content.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/picsart
-  in_network: false
-  is_api_provider: false
-  suggested_slug: picsart
+  in_network: true
+  is_api_provider: true
+  slug: picsart
+  matched_by: name-slug
 - name: Elemy
   description: Elemy is transforming pediatric behavioral care through its tech-enabled platform.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/elemy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elemy
+  slug: elemy
+  matched_by: name-slug
 - name: Dott
   description: Dott is rethinking urban transportation by offering easily accessible and affordable mobility
     services.
@@ -2179,9 +2346,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/dott
-  in_network: false
-  is_api_provider: false
-  suggested_slug: dott
+  in_network: true
+  is_api_provider: true
+  slug: dott
+  matched_by: name-slug
 - name: ZenBusiness
   description: ZenBusiness is building a single platform to help entrepreneurs launch, run, and grow their
     businesses.
@@ -2189,27 +2357,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/zenbusiness
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zenbusiness
+  slug: zenbusiness
+  matched_by: name-slug
 - name: CloudMinds
   description: CloudMinds is operating smart robots for people.
   sector: frontier-tech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/cloudminds
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cloudminds
+  slug: cloudminds
+  matched_by: name-slug
 - name: StreamElements
   description: StreamElements is empowering content creators to live-stream immersive experiences.
   sector: consumer
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/streamelements
-  in_network: false
-  is_api_provider: false
-  suggested_slug: streamelements
+  in_network: true
+  is_api_provider: true
+  slug: streamelements
+  matched_by: name-slug
 - name: Roivant
   description: Roivant is rapidly developing innovative medicines through a novel form of industrial organization
     in R&amp;D.
@@ -2217,9 +2388,10 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/roivant
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roivant
+  slug: roivant
+  matched_by: name-slug
 - name: Ginkgo Bioworks
   description: Ginkgo Bioworks is using biology as a source of new chemical building blocks to commercialize
     novel products and materials.
@@ -2227,54 +2399,60 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/ginkgo-bioworks
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ginkgo-bioworks
+  slug: ginkgo-bioworks
+  matched_by: name-slug
 - name: REEF
   description: REEF is creating urban mobility hubs for the on-demand world.
   sector: logistics
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/reef
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reef
+  slug: reef
+  matched_by: name-slug
 - name: Collective Health
   description: Collective Health is making it effortless to navigate, understand, and pay for healthcare.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/collective-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collective-health
+  slug: collective-health
+  matched_by: name-slug
 - name: EDDA
   description: EDDA is integrating intelligent medical imaging analytics with robots for precision surgery.
   sector: health-tech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/edda
-  in_network: false
-  is_api_provider: false
-  suggested_slug: edda
+  in_network: true
+  is_api_provider: true
+  slug: edda
+  matched_by: name-slug
 - name: Netradyne
   description: Netradyne is using AI and edge computing to improve driver and fleet safety.
   sector: transportation
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/netradyne
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: netradyne
+  slug: netradyne
+  matched_by: name-slug
 - name: Meesho
   description: Meesho is enabling small businesses to succeed online.
   sector: consumer
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/meesho
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meesho
+  slug: meesho
+  matched_by: name-slug
 - name: Alibaba Local Services
   description: Alibaba Local Services is redefining urban lifestyle and bringing greater joy and convenience
     to consumers.
@@ -2282,9 +2460,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/alibaba-local-services
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alibaba-local-services
+  slug: alibaba-local-services
+  matched_by: name-slug
 - name: KEENON Robotics
   description: KEENON Robotics is building autonomous robots to increase productivity in the services
     industry.
@@ -2292,9 +2471,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/keenon-robotics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: keenon-robotics
+  slug: keenon-robotics
+  matched_by: name-slug
 - name: Sendcloud
   description: Sendcloud is helping e-commerce companies optimize shipping to meet today’s delivery demands.
   sector: logistics
@@ -2321,9 +2501,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/misfits-market
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: misfits-market
+  slug: misfits-market
+  matched_by: name-slug
 - name: Peak
   description: Peak is deploying decision intelligence to supercharge commercial decision making and grow
     businesses.
@@ -2331,9 +2512,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/peak
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: peak
+  slug: peak
+  matched_by: name-slug
 - name: Go1
   description: Go1 is transforming corporate education through its subscription to learning resources
     from the world’s top training providers.
@@ -2341,18 +2523,20 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/go1
-  in_network: false
-  is_api_provider: false
-  suggested_slug: go1
+  in_network: true
+  is_api_provider: true
+  slug: go1
+  matched_by: name-slug
 - name: OakNorth
   description: OakNorth is transforming commercial lending through big data and machine learning.
   sector: fintech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/oaknorth
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: oaknorth
+  slug: oaknorth
+  matched_by: name-slug
 - name: Wiliot
   description: Wiliot is engineering intelligence and connectivity into trillions of everyday things,
     increasing safety, efficiency, and sustainability.
@@ -2360,9 +2544,10 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/wiliot
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wiliot
+  slug: wiliot
+  matched_by: name-slug
 - name: Cityblock
   description: Cityblock is delivering tech-driven care in communities with complex health and social
     needs.
@@ -2370,9 +2555,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cityblock
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cityblock
+  slug: cityblock
+  matched_by: name-slug
 - name: Nvidia
   description: Nvidia is igniting modern AI to power the next era of computing.
   sector: frontier-tech
@@ -2389,9 +2575,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/plenty
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plenty
+  slug: plenty
+  matched_by: name-slug
 - name: Helion
   description: Helion Energy is developing revolutionary nuclear fusion technology to generate clean,
     limitless energy.
@@ -2409,9 +2596,10 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/swiggy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swiggy
+  slug: swiggy
+  matched_by: name-slug
 - name: AccelByte
   description: Accelbyte is enabling developers to quickly build, scale, and operate live service games.
   sector: enterprise
@@ -2428,9 +2616,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/infstones
-  in_network: false
-  is_api_provider: false
-  suggested_slug: infstones
+  in_network: true
+  is_api_provider: true
+  slug: infstones
+  matched_by: name-slug
 - name: XMOV
   description: XMOV is building metaverse infrastructure through its one-stop virtual content creation
     platform.
@@ -2438,9 +2627,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/xmov
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: xmov
+  slug: xmov
+  matched_by: name-slug
 - name: Iyuno
   description: Iyuno is providing technology-driven localization solutions to the media and entertainment
     industry.
@@ -2448,9 +2638,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/iyuno
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iyuno
+  slug: iyuno
+  matched_by: name-slug
 - name: Roofstock
   description: Roofstock is accelerating innovation in real estate investing with its data-driven digital
     solutions.
@@ -2458,9 +2649,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/roofstock
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roofstock
+  slug: roofstock
+  matched_by: name-slug
 - name: eToro
   description: eToro is connecting users to global markets and to each other so that everyone can invest
     in a simple and transparent way.
@@ -2478,9 +2670,10 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/seer
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seer
+  slug: seer
+  matched_by: name-slug
 - name: Ventus Therapeutics
   description: Ventus Therapeutics is using computational tools to unlock elusive drug targets that address
     human disease.
@@ -2488,9 +2681,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/ventus-therapeutics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ventus-therapeutics
+  slug: ventus-therapeutics
+  matched_by: name-slug
 - name: XtalPi
   description: XtalPi is transforming drug discovery and development through quantum physics, artificial
     intelligence, and cloud computing.
@@ -2520,18 +2714,20 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/gousto
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gousto
+  slug: gousto
+  matched_by: name-slug
 - name: Auto1
   description: Auto1 is making it fast and efficient to buy and sell used cars.
   sector: consumer
   region: EMEA
   status: ipo
   source: https://visionfund.com/portfolio/auto1
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: auto1
+  slug: auto1
+  matched_by: name-slug
 - name: CARS24
   description: CARS24 is providing buyers and sellers of used cars with a quick, easy, and hassle-free
     transaction online.
@@ -2539,36 +2735,40 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/cars24
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cars24
+  slug: cars24
+  matched_by: name-slug
 - name: Kigen
   description: Kigen is providing security for trillions of connected things with its eSIM and iSIM technologies.
   sector: frontier-tech
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/kigen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kigen
+  slug: kigen
+  matched_by: name-slug
 - name: Clutter
   description: Clutter is changing the way people store and manage their physical belongings.
   sector: logistics
   region: Americas
   status: acquired
   source: https://visionfund.com/portfolio/clutter
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clutter
+  slug: clutter
+  matched_by: name-slug
 - name: Cerebral
   description: Cerebral is providing comprehensive mental health care with therapy, counseling, and medication.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cerebral
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cerebral
+  slug: cerebral
+  matched_by: name-slug
 - name: Symbotic
   description: Symbotic is revolutionizing warehouse automation with AI-powered robotics systems.
   sector: logistics
@@ -2586,27 +2786,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cargomatic
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cargomatic
+  in_network: true
+  is_api_provider: true
+  slug: cargomatic
+  matched_by: name-slug
 - name: Arm
   description: Arm is using technology to architect a smarter world.
   sector: frontier-tech
   region: EMEA
   status: ipo
   source: https://visionfund.com/portfolio/arm
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arm
+  slug: arm
+  matched_by: name-slug
 - name: UPSIDE Foods
   description: UPSIDE Foods is reimagining how meat is made by harvesting it from cells instead of animals.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/upside-foods
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: upside-foods
+  slug: upside-foods
+  matched_by: name-slug
 - name: CAST AI
   description: CAST AI is optimizing cloud infrastructure with AI‑driven automation that reduces costs
     by half and boosts productivity.
@@ -2624,27 +2827,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/forterra
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: forterra
+  slug: forterra
+  matched_by: name-slug
 - name: PayPay
   description: PayPay is transforming everyday commerce in Japan with secure, seamless mobile payments.
   sector: fintech
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/paypay
-  in_network: false
-  is_api_provider: false
-  suggested_slug: paypay
+  in_network: true
+  is_api_provider: true
+  slug: paypay
+  matched_by: name-slug
 - name: Andela
   description: Andela is building a global talent marketplace that connects top organizations with technologists.
   sector: enterprise
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/andela
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: andela
+  slug: andela
+  matched_by: name-slug
 - name: Swell Energy
   description: Swell Energy is creating a smarter grid through cost effective, clean, and flexible energy
     solutions.
@@ -2652,9 +2858,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/swell-energy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swell-energy
+  slug: swell-energy
+  matched_by: name-slug
 - name: Coupang
   description: Coupang is transforming e-commerce end-to-end.
   sector: consumer
@@ -2671,9 +2878,10 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/dingdong-maicai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dingdong-maicai
+  slug: dingdong-maicai
+  matched_by: name-slug
 - name: Slack
   description: Slack is bringing the right people, information, and tools together to get work done.
   sector: enterprise
@@ -2691,9 +2899,10 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/metsera
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metsera
+  slug: metsera
+  matched_by: name-slug
 - name: OfBusiness
   description: OfBusiness is an e-commerce and financing platform helping small and medium businesses
     procure raw materials efficiently.
@@ -2701,9 +2910,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/ofbusiness
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ofbusiness
+  slug: ofbusiness
+  matched_by: name-slug
 - name: OpusClip
   description: OpusClip is delivering one-click, agentic video editing solutions that eliminate manual
     work for content creators.
@@ -2711,18 +2921,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/opusclip
-  in_network: false
-  is_api_provider: false
-  suggested_slug: opusclip
+  in_network: true
+  is_api_provider: true
+  slug: opusclip
+  matched_by: name-slug
 - name: Zhangmen
   description: Zhangmen is personalizing one-on-one online tutoring for students across China.
   sector: edtech
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/zhangmen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zhangmen
+  slug: zhangmen
+  matched_by: name-slug
 - name: Clarify Health
   description: Clarify Health is powering better care with its healthcare analytics and value-based payments
     platform.
@@ -2730,27 +2942,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/clarify-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clarify-health
+  slug: clarify-health
+  matched_by: name-slug
 - name: Nextbite
   description: Nextbite is helping restaurants and virtual kitchens increase efficiency.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/nextbite
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nextbite
+  slug: nextbite
+  matched_by: name-slug
 - name: TabaPay
   description: TabaPay is enabling secure, reliable, and low-cost instant payments and payouts for fintechs.
   sector: fintech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/tabapay
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tabapay
+  in_network: true
+  is_api_provider: true
+  slug: tabapay
+  matched_by: name-slug
 - name: Nature's Fynd
   description: Nature’s Fynd is using versatile fungi-based proteins to create delicious, nutritious,
     and sustainable foods.
@@ -2758,18 +2973,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/naturesfynd
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: natures-fynd
+  slug: natures-fynd
+  matched_by: name-slug
 - name: Encoded Therapeutics
   description: Encoded Therapeutics is advancing life-changing therapies through precision medicine.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/encoded-therapeutics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: encoded-therapeutics
+  slug: encoded-therapeutics
+  matched_by: name-slug
 - name: Vir
   description: Vir is integrating breakthroughs in science, technology, and medicine to transform the
     treatment of infectious diseases.
@@ -2777,18 +2994,20 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/vir
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vir
+  slug: vir
+  matched_by: name-slug
 - name: Unacademy
   description: Unacademy is empowering the world’s youth through online lessons and specialized courses.
   sector: edtech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/unacademy
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unacademy
+  slug: unacademy
+  matched_by: name-slug
 - name: Plume
   description: Plume enables smarter connectivity and experiences in homes and beyond through its cloud
     data platform.
@@ -2796,9 +3015,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/plume
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plume
+  slug: plume
+  matched_by: name-slug
 - name: Mindtickle
   description: Mindtickle is enabling successful sales team through its sales readiness platform.
   sector: enterprise
@@ -2816,27 +3036,30 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/patsnap
-  in_network: false
-  is_api_provider: false
-  suggested_slug: patsnap
+  in_network: true
+  is_api_provider: true
+  slug: patsnap
+  matched_by: name-slug
 - name: Umoja
   description: Umoja is developing a new approach to cancer therapy that retools a patient’s immune system.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/umoja
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: umoja
+  slug: umoja
+  matched_by: name-slug
 - name: Socra AI
   description: Socra AI is using AI to offer personalized instruction to students globally.
   sector: edtech
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/socra-ai
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: socra-ai
+  slug: socra-ai
+  matched_by: name-slug
 - name: Vendr
   description: Vendr is changing how companies find, buy, and manage software through its SaaS buying
     platform.
@@ -2866,18 +3089,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/commerceiq
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: commerceiq
+  slug: commerceiq
+  matched_by: name-slug
 - name: Better
   description: Better is unlocking new opportunities throughout the homeownership journey.
   sector: fintech
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/better
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: better
+  slug: better
+  matched_by: name-slug
 - name: Animoca Brands
   description: Animoca Brands is constructing an open metaverse where players can build and monetize their
     creations.
@@ -2885,9 +3110,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/animoca-brands
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: animoca-brands
+  slug: animoca-brands
+  matched_by: name-slug
 - name: DriveWealth
   description: DriveWealth is helping banks and payment apps bring investing to everyone, everywhere.
   sector: fintech
@@ -2905,27 +3131,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/big-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: big-health
+  slug: big-health
+  matched_by: name-slug
 - name: Wellhub
   description: Wellhub is defeating inactivity through its corporate fitness platform.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/wellhub
-  in_network: false
-  is_api_provider: false
-  suggested_slug: wellhub
+  in_network: true
+  is_api_provider: true
+  slug: wellhub
+  matched_by: name-slug
 - name: DiDi
   description: DiDi is building a better journey for the world.
   sector: transportation
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/didi
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: didi
+  slug: didi
+  matched_by: name-slug
 - name: DiDi Autonomous
   description: DiDi Autonomous is bringing safer and more efficient commercial autonomous fleets to the
     world’s largest cities.
@@ -2933,9 +3162,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/didi-autonomous
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: didi-autonomous
+  slug: didi-autonomous
+  matched_by: name-slug
 - name: Veho
   description: Veho is increasing customer loyalty for ecommerce brands with flexible parcel delivery
     experiences.
@@ -2943,9 +3173,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/veho
-  in_network: false
-  is_api_provider: false
-  suggested_slug: veho
+  in_network: true
+  is_api_provider: true
+  slug: veho
+  matched_by: name-slug
 - name: Repertoire Immune Medicines
   description: Repertoire Immune Medicines is decoding the immune synapse to create novel immune therapies
     for cancer, immune disorders, infectious disease, and other serious diseases.
@@ -2953,9 +3184,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/repertoire-immune-medicines
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: repertoire-immune-medicines
+  slug: repertoire-immune-medicines
+  matched_by: name-slug
 - name: Class Technologies
   description: Class Technologies is enhancing virtual classrooms by adding teaching and learning tools
     to Zoom.
@@ -2963,18 +3195,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/class-technologies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: class-technologies
+  slug: class-technologies
+  matched_by: name-slug
 - name: Fuze Health
   description: Fuze Health is building the world&#039;s most patient-centric pharmacy.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/fuze-health
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fuze-health
+  slug: fuze-health
+  matched_by: name-slug
 - name: 7shifts
   description: 7shifts is simplifying team management to help restauranters improve operating performance.
   sector: enterprise
@@ -2991,27 +3225,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/human-interest
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: human-interest
+  slug: human-interest
+  matched_by: name-slug
 - name: ElevateBio
   description: ElevateBio is powering the development of innovative cell and gene therapies.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/elevatebio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elevatebio
+  slug: elevatebio
+  matched_by: name-slug
 - name: MinIO
   description: MinIO is enabling enterprises to store data across public, private and edge clouds.
   sector: enterprise
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/minio
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: minio
+  slug: minio
+  matched_by: name-slug
 - name: Sendbird
   description: Sendbird is powering mobile engagement and communication for some of the largest brands
     in the world.
@@ -3051,18 +3288,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/claroty
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: claroty
+  slug: claroty
+  matched_by: name-slug
 - name: Skedulo
   description: Skedulo is empowering organizations to manage, engage, and analyze their deskless workforce.
   sector: enterprise
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/skedulo
-  in_network: false
-  is_api_provider: false
-  suggested_slug: skedulo
+  in_network: true
+  is_api_provider: true
+  slug: skedulo
+  matched_by: name-slug
 - name: Brain Corp
   description: Brain Corp is developing intelligent, autonomous navigation systems for everyday machines.
   sector: frontier-tech
@@ -3089,9 +3328,10 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/huice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: huice
+  slug: huice
+  matched_by: name-slug
 - name: Getaround
   description: Getaround is empowering people to carshare everywhere.
   sector: consumer
@@ -3118,18 +3358,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/esusu
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: esusu
+  slug: esusu
+  matched_by: name-slug
 - name: GoTo
   description: GoTo is providing e-commerce, financial, and on-demand services to consumers in Indonesia.
   sector: consumer
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/goto
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goto
+  slug: goto
+  matched_by: name-slug
 - name: Grab
   description: Grab is connecting millions of consumers to millions of drivers, merchants, and businesses
     in Southeast Asia.
@@ -3147,27 +3389,30 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/pax8
-  in_network: false
-  is_api_provider: false
-  suggested_slug: pax8
+  in_network: true
+  is_api_provider: true
+  slug: pax8
+  matched_by: name-slug
 - name: Petuum
   description: Petuum is industrializing AI technology and transforming enterprises across all industries.
   sector: enterprise
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/petuum
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: petuum
+  slug: petuum
+  matched_by: name-slug
 - name: Globality
   description: Globality is revolutionizing how companies find and select service suppliers.
   sector: enterprise
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/globality
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: globality
+  slug: globality
+  matched_by: name-slug
 - name: Vividion Therapeutics
   description: Vividion Therapeutics is utilizing its novel discovery technologies to unlock undruggable
     targets for oncology and immune disorders.
@@ -3175,9 +3420,10 @@ companies:
   region: Americas
   status: acquired
   source: https://visionfund.com/portfolio/vividion-therapeutics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vividion-therapeutics
+  slug: vividion-therapeutics
+  matched_by: name-slug
 - name: Redis
   description: Redis is helping organizations quickly process, analyze, predict, and take action with
     real-time data.
@@ -3195,9 +3441,10 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/ltk
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ltk
+  slug: ltk
+  matched_by: name-slug
 - name: OpenAI
   description: OpenAI is creating safe AGI that benefits all of humanity
   sector: enterprise
@@ -3215,18 +3462,20 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/consensys
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: consensys
+  slug: consensys
+  matched_by: name-slug
 - name: JD Logistics
   description: JD Logistics is providing technology-driven integrated supply chain solutions in China.
   sector: logistics
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/jd-logistics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jd-logistics
+  slug: jd-logistics
+  matched_by: name-slug
 - name: Juspay
   description: Juspay is unifying payment options to offer a seamless, secure, and reliable digital experience.
   sector: fintech

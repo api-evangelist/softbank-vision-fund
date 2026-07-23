@@ -15,6 +15,17 @@ description: >-
   edtech and proptech across the Americas, EMEA and Asia. Headquartered in
   London, with major offices in the US and Asia, its portfolio includes many
   unicorns and household names such as Arm, ByteDance, and Aurora.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://sb-vf-assets.s3.amazonaws.com/assets/logo_vertical_grey.svg
 x-type: venture-capital
 x-category: Venture Capital
