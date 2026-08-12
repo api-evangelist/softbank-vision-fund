@@ -1932,7 +1932,7 @@ companies:
   source: https://visionfund.com/portfolio/digits
   in_network: true
   is_api_provider: true
-  slug: digits
+  slug: digits-com
   matched_by: name-slug
 - name: Soul Machines
   description: Soul Machines is creating autonomously animated digital humans to create personalized customer
