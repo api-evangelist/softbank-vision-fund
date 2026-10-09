@@ -759,10 +759,9 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/polygon
-  slug: polygon
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: polygon-technology
 - name: fabric
   description: fabric is developing a flexible and headless platform for modern e-commerce experiences.
   sector: enterprise
