@@ -1487,7 +1487,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: job-and-talent
-  x-url-candidate: https://jobnet.ag/Solutions/Artificial-Intelligence/
+  x-url-rejected: https://jobnet.ag/Solutions/Artificial-Intelligence/
 - name: Observe.AI
   description: Observe.AI is empowering contact centers with AI to improve customer experience and drive
     revenue.
