@@ -3,9 +3,9 @@ method: searched
 source: https://visionfund.com/portfolio
 summary:
   portfolio_total: 333
-  in_network: 315
-  api_providers: 94
-  missing: 18
+  in_network: 328
+  api_providers: 99
+  missing: 5
   stubs_created: 0
 companies:
 - name: Guazi
@@ -17,7 +17,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: guazi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.guazi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: IonQ
   description: IonQ is building the world’s leading quantum computers to help solve the world’s most complex
     problems.
@@ -28,7 +30,9 @@ companies:
   slug: ionq
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ionq.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Platform Science
   description: Platform Science is developing a fleet management platform to streamline logistics.
   sector: transportation
@@ -38,7 +42,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: platform-science
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.platformscience.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Qualtrics
   description: Qualtrics is changing the way organizations manage and improve the four core experiences
     of business — customer, employee, product, and brand.
@@ -49,7 +55,9 @@ companies:
   slug: qualtrics
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.qualtrics.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: CopilotIQ
   description: CopilotIQ is using data and machine learning to help clinicians predict and prevent serious
     medical events.
@@ -60,7 +68,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: copilotiq
-  matched_by: name-slug
+  matched_by: domain
+  url: https://copilotiq.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: PrimaryBid
   description: PrimaryBid is powering inclusivity in the capital markets.
   sector: fintech
@@ -70,7 +80,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: primarybid
-  matched_by: name-slug
+  matched_by: domain
+  url: https://primarybid.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Copado
   description: Copado is harnessing DevOps for SaaS applications to power the world&#039;s largest digital
     transformation projects.
@@ -81,7 +93,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: copado
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.copado.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Revolut
   description: Revolut is building a financial super app to help customers get more from their money and
     connect people around the world.
@@ -92,7 +106,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: revolut
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.revolut.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Relay Therapeutics
   description: Relay Therapeutics is transforming the drug discovery process with unparalleled insights
     into protein motion.
@@ -103,7 +119,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: relay-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://relaytx.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Neuron23
   description: Neuron23 is using data and genomics to create precision medicines that fight debilitating
     diseases.
@@ -114,7 +132,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: neuron23
-  matched_by: name-slug
+  matched_by: domain
+  url: https://neuron23.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: JAKA
   description: JAKA Robotics is advancing collaborative robotics to make automation smarter, safer, and
     more flexible.
@@ -125,7 +145,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jaka
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.jaka.com
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: PatPat
   description: PatPat is building an e-commerce platform offering quality kids apparel at affordable prices.
   sector: consumer
@@ -135,7 +157,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: patpat
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.patpat.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: WeWork
   description: WeWork is revolutionizing the way people and companies work.
   sector: proptech
@@ -145,7 +169,9 @@ companies:
   slug: wework
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.wework.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Wayve
   description: Wayve is redefining autonomous driving with end-to-end AI solutions that provide adaptable,
     scalable autonomy across the world.
@@ -156,7 +182,9 @@ companies:
   slug: wayve
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://wayve.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Carro
   description: Carro is using AI to transform the car buying and selling process in Southeast Asia.
   sector: consumer
@@ -166,7 +194,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: carro
-  matched_by: name-slug
+  matched_by: domain
+  url: https://carro.co/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cornami
   description: Cornami is making real-time fully homomorphic encryption possible with its computing architecture.
   sector: frontier-tech
@@ -176,7 +206,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cornami
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cornami.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Atom Learning
   description: Atom Learning is harnessing adaptive learning tech to provide high quality, affordable
     education.
@@ -187,7 +219,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: atom-learning
-  matched_by: name-slug
+  matched_by: domain
+  url: https://atomlearning.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Treasure Data
   description: Treasure Data is building an enterprise CDP to power purposeful engagements for every customer,
     every time.
@@ -198,7 +232,9 @@ companies:
   slug: treasure-data
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.treasuredata.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Tessera Therapeutics
   description: Tessera Therapeutics is pioneering Gene Writing, a new category of genetic medicine.
   sector: health-tech
@@ -208,7 +244,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tessera-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tesseratherapeutics.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cameo
   description: Cameo is connecting fans directly with their favorite pop culture icons via personalized
     video messages, live calls, and direct messages.
@@ -219,7 +257,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cameo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cameo.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: 10x Genomics
   description: 10x Genomics is paving the way for a new understanding of biology, human health, and disease.
   sector: health-tech
@@ -229,7 +269,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: 10x-genomics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.10xgenomics.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Spotter
   description: Spotter is providing financing to YouTube creators to grow or diversify their business.
   sector: consumer
@@ -239,7 +281,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: spotter
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.spotter.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Oosto
   description: Oosto is deploying AI-driven computer vision to make the world a safer place.
   sector: enterprise
@@ -249,7 +293,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: oosto
-  matched_by: name-slug
+  matched_by: domain
+  url: https://oosto.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Enpal
   description: Enpal is building renewable communities by making green energy accessible and affordable
     for everyone.
@@ -260,7 +306,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: enpal
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.enpal.de/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Kabbage
   description: Kabbage is empowering small businesses through straightforward, flexible access to capital.
   sector: fintech
@@ -281,7 +329,9 @@ companies:
   slug: shipbob
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.shipbob.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Karius
   description: Karius is using genomics and AI to advance infectious disease diagnostics.
   sector: health-tech
@@ -291,7 +341,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: karius
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kariusdx.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: LegalOn
   description: LegalOn is using AI to improve the quality and efficiency of corporate legal operations.
   sector: enterprise
@@ -301,7 +353,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: legalon
-  matched_by: name-slug
+  matched_by: domain
+  url: https://legalontech.jp/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Eigencomm
   description: Eigencomm is building cellular chips and software to power the growth of the Internet of
     Things.
@@ -323,6 +377,8 @@ companies:
   is_api_provider: false
   slug: paper
   matched_by: name-slug
+  url: https://paper.co/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: M1 Finance
   description: M1 Finance is building a finance super app to help people manage and grow their money with
     control and automation.
@@ -333,7 +389,9 @@ companies:
   slug: m1-finance
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://m1.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Attentive
   description: Attentive is providing a mobile messaging platform for brands to deliver personalized shopping
     experiences.
@@ -344,7 +402,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: attentive
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.attentive.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Reibus
   description: Reibus is utilizing technology to solve ingrained supply chain problems in the industrial
     material market.
@@ -355,7 +415,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: reibus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://reibus.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Remote
   description: Remote is managing international payroll, benefits, taxes and stock options for distributed
     teams.
@@ -363,9 +425,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/remote
-  in_network: false
-  is_api_provider: false
-  suggested_slug: remote
+  in_network: true
+  is_api_provider: true
+  url: https://remote.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: remote-com
+  matched_by: domain
 - name: Apollo Agriculture
   description: Apollo Agriculture is a farming platform that helps small-scale farmers maximize their
     profits.
@@ -376,7 +441,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: apollo-agriculture
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.apolloagriculture.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: SambaNova
   description: SambaNova is building the industry’s only full-stack solution designed to run AI applications
     from the data center to the cloud and to the edge.
@@ -384,9 +451,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/sambanova
-  in_network: false
-  is_api_provider: false
-  suggested_slug: sambanova
+  in_network: true
+  is_api_provider: true
+  url: https://sambanova.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: sambanova-systems
+  matched_by: domain
 - name: OurCrowd
   description: OurCrowd is providing a better way for individuals and institutions to invest in startups.
   sector: fintech
@@ -396,16 +466,21 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ourcrowd
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ourcrowd.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Vestiaire Collective
   description: Vestiaire Collective is transforming the fashion industry for a more sustainable future.
   sector: consumer
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/vestiaire-collective
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vestiaire-collective
+  url: https://vestiairecollective.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: vestiairecollective
+  matched_by: domain
 - name: Gaussian Robotics
   description: Gaussian Robotics is developing autonomous robots for commercial property cleaning.
   sector: frontier-tech
@@ -426,7 +501,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: clikalia
-  matched_by: name-slug
+  matched_by: domain
+  url: https://clikalia.es/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Automation Anywhere
   description: Automation Anywhere is empowering customers to automate business processes with intelligent
     software bots.
@@ -434,10 +511,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/automation-anywhere
-  slug: automation-anywhere
+  slug: aisera
   in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  is_api_provider: false
+  matched_by: domain
+  url: https://www.automationanywhere.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: AInnovation
   description: AInnovation is providing full-stack AI-based products and solutions to enterprises.
   sector: enterprise
@@ -447,7 +526,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ainnovation
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ainnovation.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Aculys
   description: Aculys is developing and commercializing new drugs for neurology and psychiatry in Japan.
   sector: health-tech
@@ -457,16 +538,21 @@ companies:
   in_network: true
   is_api_provider: false
   slug: aculys
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aculys.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: DICE
   description: DICE is connecting fans to live shows and streams spanning music, arts and culture.
   sector: consumer
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/dice
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dice
+  url: https://dice.fm/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: dice-fm
+  matched_by: domain
 - name: Behavox
   description: Behavox is using AI to help businesses uncover and address hidden regulatory risks.
   sector: enterprise
@@ -476,7 +562,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: behavox
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.behavox.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Fourier Intelligence
   description: Fourier Intelligence is developing robotics that improve rehabilitation from injury and
     enhance well being.
@@ -497,7 +585,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cmr-surgical
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cmrsurgical.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Delhivery
   description: Delhivery is disrupting the supply chain across India one shipment at a time.
   sector: logistics
@@ -507,17 +597,21 @@ companies:
   in_network: true
   is_api_provider: false
   slug: delhivery
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.delhivery.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Perch
   description: Perch is acquiring and operating top Amazon third-party and D2C brands at scale.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/perch
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: perch
-  matched_by: name-slug
+  url: https://www.perchhq.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  x-name-collision: perch
+  suggested_slug: perchhq-com
 - name: Whatfix
   description: Whatfix is helping businesses improve productivity by increasing employee adoption of software.
   sector: enterprise
@@ -527,7 +621,9 @@ companies:
   slug: whatfix
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://whatfix.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Creditas
   description: Creditas is aiming to reinvent secured lending in Brazil with data and technology.
   sector: fintech
@@ -537,7 +633,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: creditas
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.creditas.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Whoop
   description: Whoop is unlocking human performance.
   sector: consumer
@@ -547,7 +645,9 @@ companies:
   slug: whoop
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.whoop.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Hexagon Bio
   description: Hexagon Bio is identifying novel medicines encoded in the global metagenome and brings
     them to patients.
@@ -558,7 +658,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: hexagon-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hexagonbio.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: View
   description: View is transforming real estate through dynamic glass windows that enhance human health,
     increase productivity, and save energy.
@@ -569,7 +671,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: view
-  matched_by: name-slug
+  matched_by: domain
+  url: https://view.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: 360Learning
   description: 360Learning is empowering companies to drive culture and growth through collaborative learning.
   sector: edtech
@@ -579,7 +683,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: 360learning
-  matched_by: name-slug
+  matched_by: domain
+  url: https://360learning.com
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Chime
   description: Chime is driving innovation, inclusion, and access across the banking industry.
   sector: fintech
@@ -589,7 +695,9 @@ companies:
   slug: chime
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.chime.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Full Truck Alliance
   description: Full Truck Alliance is building China&#039;s largest road logistics ecosystem for shippers
     and truckers.
@@ -620,7 +728,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: trax
-  matched_by: name-slug
+  matched_by: domain
+  url: https://traxretail.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cloudbeds
   description: Cloudbeds is providing hotel owners with an integrated platform to manage and grow their
     business.
@@ -631,7 +741,9 @@ companies:
   slug: cloudbeds
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cloudbeds.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OYO
   description: OYO is delivering predictable, affordable, and quality accommodation experiences to travelers
     around the world.
@@ -652,7 +764,9 @@ companies:
   slug: ola
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.olacabs.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OPay
   description: OPay is providing secure mobile money services to consumers in Africa.
   sector: fintech
@@ -662,7 +776,9 @@ companies:
   slug: opay
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://opayweb.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: LUMICKS
   description: LUMICKS is empowering researchers with the tools they need to understand biological processes
     at the molecular level.
@@ -673,7 +789,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: lumicks
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lumicks.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Gelato
   description: Gelato is empowering the creator economy to deliver customized products in a sustainable
     way.
@@ -684,7 +802,9 @@ companies:
   slug: gelato
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gelato.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Proximie
   description: Proximie is empowering clinicians to virtually ‘scrub in’ to any operating room in the
     world.
@@ -695,7 +815,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: proximie
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.proximie.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Neumora
   description: Neumora is pioneering precision medicines for brain diseases through its data-driven platform.
   sector: health-tech
@@ -704,17 +826,22 @@ companies:
   source: https://visionfund.com/portfolio/neumora
   in_network: true
   is_api_provider: false
-  slug: neumora
-  matched_by: name-slug
+  slug: blackthorn-therapeutics
+  matched_by: domain
+  url: https://neumoratx.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Dewpoint
   description: Dewpoint is translating condensate biology into much-needed medicines.
   sector: health-tech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/dewpoint
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dewpoint
+  url: https://dewpointx.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: dewpoint-therapeutics
+  matched_by: domain
 - name: Dianxiaomi
   description: Dianxiaomi is making cross-border e-commerce more efficient through its suite of SaaS products.
   sector: enterprise
@@ -724,7 +851,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: dianxiaomi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.dianxiaomi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Vianai Systems
   description: Vianai Systems is creating a human-centered AI platform to address the unfulfilled promise
     of enterprise AI.
@@ -735,7 +864,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vianai-systems
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.vian.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Classiq
   description: Classiq is revolutionizing quantum software development by automating and synthesizing
     quantum algorithms for any hardware.
@@ -746,16 +877,21 @@ companies:
   slug: classiq
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.classiq.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Polygon
   description: Polygon is supporting developers to build and connect Ethereum-compatible Web3 applications.
   sector: fintech
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/polygon
-  in_network: false
-  is_api_provider: false
-  suggested_slug: polygon
+  in_network: true
+  is_api_provider: true
+  url: https://polygon.technology/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: polygon-id
+  matched_by: domain
 - name: fabric
   description: fabric is developing a flexible and headless platform for modern e-commerce experiences.
   sector: enterprise
@@ -763,9 +899,11 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/fabric
   in_network: true
-  is_api_provider: false
-  slug: fabric
-  matched_by: name-slug
+  is_api_provider: true
+  slug: fabric-com
+  matched_by: domain
+  url: https://fabric.inc/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: CertiK
   description: CertiK is enabling web3 and blockchain applications to be built with security and accuracy
     in mind.
@@ -776,7 +914,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: certik
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.certik.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Beisen
   description: Beisen is helping organizations manage their human capital through its SaaS platform.
   sector: enterprise
@@ -786,7 +926,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: beisen
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.beisen.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Sendoso
   description: Sendoso is helping companies stand out with customers and employees through personalized
     gift-giving.
@@ -797,7 +939,9 @@ companies:
   slug: sendoso
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sendoso.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Quantstamp
   description: Quantstamp is securing the future of blockchain with smart contract audits and cybersecurity
     solutions.
@@ -808,7 +952,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: quantstamp
-  matched_by: name-slug
+  matched_by: domain
+  url: https://quantstamp.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Unifonic
   description: Unifonic is streamlining customer engagement for companies to create remarkable omnichannel
     experiences.
@@ -819,7 +965,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: unifonic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.unifonic.com/en/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Beike
   description: Beike is a leading integrated online and offline platform for housing transactions and
     services.
@@ -841,7 +989,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: soda
-  matched_by: name-slug
+  matched_by: domain
+  url: https://soda-inc.jp/en
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Klarna
   description: Klarna is enabling consumers to shop, pay, and bank in a smarter way.
   sector: fintech
@@ -851,7 +1001,9 @@ companies:
   slug: klarna
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.klarna.com
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Rimac
   description: Rimac is forging the future of automotive through its advanced EV technology and hypercars.
   sector: transportation
@@ -860,8 +1012,10 @@ companies:
   source: https://visionfund.com/portfolio/rimac
   in_network: true
   is_api_provider: false
-  slug: rimac
-  matched_by: name-slug
+  slug: rimac-automobili
+  matched_by: domain
+  url: https://www.rimac-automobili.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Advance Intelligence Group
   description: Advance Intelligence is providing AI-powered financial services for consumers and enterprises
     across Asia.
@@ -872,16 +1026,21 @@ companies:
   in_network: true
   is_api_provider: true
   slug: advance-intelligence-group
-  matched_by: name-slug
+  matched_by: domain
+  url: https://advancegroup.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Vuori
   description: Vuori is making premium performance apparel inspired by the active Coastal California lifestyle.
   sector: consumer
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/vuori
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vuori
+  url: https://vuoriclothing.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: vuoriclothing
+  matched_by: domain
 - name: Ola Electric
   description: Ola Electric is driving India’s EV adoption at scale.
   sector: transportation
@@ -891,7 +1050,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ola-electric
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.olaelectric.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Forto
   description: Forto is digitizing logistics to deliver a highly transparent, frictionless, and sustainable
     global supply chain.
@@ -902,7 +1063,9 @@ companies:
   slug: forto
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://forto.com/en/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: GetYourGuide
   description: GetYourGuide is connecting travelers to incredible experiences wherever they are.
   sector: consumer
@@ -912,7 +1075,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: getyourguide
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.getyourguide.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Zum
   description: Zūm is reimagining student transportation through its cloud-based platform.
   sector: transportation
@@ -922,7 +1087,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zum
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ridezum.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Labelbox
   description: Labelbox is building a collaborative training data platform for AI applications.
   sector: enterprise
@@ -932,7 +1099,9 @@ companies:
   slug: labelbox
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://labelbox.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Firework
   description: Firework is empowering brands to build live commerce experiences across their digital channels.
   sector: consumer
@@ -942,7 +1111,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: firework
-  matched_by: name-slug
+  matched_by: domain
+  url: https://firework.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Lenskart
   description: Lenskart is giving millions of people access to quality, affordable eyewear online, in
     store and at home.
@@ -953,7 +1124,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: lenskart
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.lenskart.com
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Policybazaar
   description: Policybazaar is making insurance in India fair, transparent and sustainable.
   sector: fintech
@@ -963,7 +1136,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: policybazaar
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.policybazaar.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Runway
   description: Runway is building foundational AI research models and creative tools towards a new production
     paradigm.
@@ -974,7 +1149,9 @@ companies:
   slug: runway
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://runwayml.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Emeritus
   description: Emeritus partners with top-tier universities to bring world-class business and professional
     education to a global audience.
@@ -985,7 +1162,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: emeritus
-  matched_by: name-slug
+  matched_by: domain
+  url: https://emeritus.org/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: bKash
   description: bKash is building a digital financial platform to broaden access to financial services
     in Bangladesh.
@@ -996,7 +1175,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: bkash
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.bkash.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Rappi
   description: Rappi is a super app for Latin America that delivers virtually everything.
   sector: logistics
@@ -1006,7 +1187,9 @@ companies:
   slug: rappi
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.rappi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: DCG
   description: DCG is building, buying, and backing digital asset and blockchain companies.
   sector: fintech
@@ -1016,7 +1199,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: dcg
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dcg.co/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Fungible
   description: Fungible is aiming to revolutionize the performance, reliability and economics of data
     centers at all scales.
@@ -1038,7 +1223,9 @@ companies:
   slug: pantheon
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pantheon.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Shoplazza
   description: Shoplazza is helping small retail businesses to build a global customer base.
   sector: enterprise
@@ -1048,7 +1235,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: shoplazza
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.shoplazza.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Sierra
   description: Sierra is enabling enterprises to transform customer service interactions with AI agents.
   sector: enterprise
@@ -1058,7 +1247,9 @@ companies:
   slug: sierra
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sierra.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Adverity
   description: Adverity is automating the connectivity, transformation, governance and utilization of
     data for marketing, sales and e-commerce.
@@ -1069,7 +1260,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: adverity
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.adverity.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Zuoyebang
   description: Zuoyebang is educating students across China through its mobile study platform.
   sector: edtech
@@ -1079,7 +1272,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zuoyebang
-  matched_by: name-slug
+  matched_by: domain
+  url: https://zuoyebang.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Fanatics
   description: Fanatics is changing the way fans purchase their favorite team apparel.
   sector: consumer
@@ -1089,7 +1284,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: fanatics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fanatics.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Fountain
   description: Fountain is helping enterprises find and hire talent through smart, fast, and seamless
     recruiting.
@@ -1097,9 +1294,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/fountain
-  in_network: false
-  is_api_provider: false
-  suggested_slug: fountain
+  in_network: true
+  is_api_provider: true
+  url: https://www.fountain.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: fountain-com
+  matched_by: domain
 - name: bloXroute
   description: bloXroute is enabling faster transaction speeds for customers in DeFi Trading.
   sector: fintech
@@ -1109,7 +1309,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: bloxroute
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bloxroute.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Zopa
   description: Zopa is helping consumers improve their financial health by changing the way they borrow
     and save.
@@ -1120,7 +1322,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: zopa
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zopa.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Recursion
   description: Recursion Pharmaceuticals is using AI to accelerate the precision design and development
     of transformational medicines.
@@ -1128,9 +1332,12 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/recursion
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: recursion
+  url: https://recursion.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: exscientia
+  matched_by: domain
 - name: Papa
   description: Papa is improving health and everyday life through a new model of at-home companionship
     and care.
@@ -1141,7 +1348,9 @@ companies:
   slug: papa
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.papa.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: VIPThink
   description: VIPThink is providing early childhood education through its innovative online learning
     platform.
@@ -1162,7 +1371,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: block-renovation
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.blockrenovation.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Berkshire Grey
   description: Berkshire Grey is automating the supply chain with intelligent enterprise robotics.
   sector: logistics
@@ -1172,7 +1383,9 @@ companies:
   slug: berkshire-grey
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.berkshiregrey.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Devoted Health
   description: Devoted Health is improving health and well-being for older Americans by treating them
     like family.
@@ -1183,7 +1396,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: devoted-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://devoted.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: GoStudent
   description: GoStudent is providing online private tutoring to primary, secondary and college-aged students.
   sector: edtech
@@ -1193,7 +1408,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: gostudent
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gostudent.org/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Arkose Labs
   description: Arkose Labs is providing technology solutions to fight cybercrime and fraud.
   sector: enterprise
@@ -1203,7 +1420,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: arkose-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.arkoselabs.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Opentrons
   description: Opentrons is building an open-source robotics platform to accelerate life sciences innovation.
   sector: frontier-tech
@@ -1213,7 +1432,9 @@ companies:
   slug: opentrons
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://opentrons.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Icertis
   description: Icertis is helping companies better manage contracts through its AI-powered platform.
   sector: enterprise
@@ -1223,7 +1444,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: icertis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.icertis.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Leah
   description: Leah is helping legal professionals around the world to digitally transform their operations.
   sector: enterprise
@@ -1233,7 +1456,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: leah
-  matched_by: name-slug
+  matched_by: domain
+  url: https://leahai.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Aleo
   description: Aleo is building the next generation developer platform for enabling absolute privacy on
     blockchains.
@@ -1244,7 +1469,9 @@ companies:
   slug: aleo
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://aleo.org/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Job&Talent
   description: Job&amp;Talent is changing the global marketplace for temporary work, improving job security
     and supporting a more engaged workforce.
@@ -1275,7 +1502,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: perk
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.perk.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Mathem
   description: Mathem is optimizing e-grocery to champion service, affordability, and freshness for customers.
   sector: consumer
@@ -1285,7 +1514,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: mathem
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.mathem.se/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Airtime
   description: Airtime is creating a new way to communicate via video.
   sector: consumer
@@ -1295,7 +1526,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: airtime
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.airtime.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Xiaopangxiong
   description: Xiaopangxiong is providing a one-stop B2B e-commerce platform for home and office renovation
     material.
@@ -1317,7 +1550,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: manticore-games
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.manticoregames.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Quris
   description: Quris is harnessing Bio-AI clinical prediction to make drug development safer, faster,
     and more cost-effective.
@@ -1328,7 +1563,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: quris
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.quris.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: AI Medical Service
   description: AI Medical Service is using AI to improve the accuracy of endoscopic exams in detecting
     early-stage cancer.
@@ -1350,7 +1587,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: coachhub
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.coachhub.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Clarity AI
   description: Clarity AI is pioneering tech-based sustainability decision-making for how we invest, buy
     and live.
@@ -1361,7 +1600,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: clarity-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://clarity.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Sense
   description: Sense is helping companies simplify and personalize recruiting through AI-driven talent
     engagement.
@@ -1369,10 +1610,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/sense
-  slug: sense
+  slug: sense-talent-labs
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sensehq.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Nuro
   description: Nuro is delivering the future of local commerce autonomously.
   sector: transportation
@@ -1382,7 +1625,9 @@ companies:
   slug: nuro
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nuro.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Kitopi
   description: Kitopi is revolutionizing the way consumers access food through its tech-powered cloud
     kitchens.
@@ -1393,7 +1638,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kitopi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kitopi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Synthego
   description: Synthego uses genome engineering to accelerate life science R&amp;D in pursuit of improved
     human health.
@@ -1404,7 +1651,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: synthego
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.synthego.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: C2FO
   description: C2FO is working to deliver a future where every company in the world has the capital they
     need to grow.
@@ -1415,7 +1664,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: c2fo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://c2fo.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Eightfold AI
   description: Eightfold AI is using AI and machine learning to help enterprises hire, retain, and grow
     a diverse global workforce.
@@ -1426,7 +1677,9 @@ companies:
   slug: eightfold-ai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://eightfold.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: FirstCry
   description: FirstCry is striving to build the world’s largest community and e-commerce platform for
     parents.
@@ -1437,7 +1690,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: firstcry
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.firstcry.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Energy Vault
   description: Energy Vault is transforming energy storage technology by enabling renewables to deliver
     around-the-clock power.
@@ -1448,7 +1703,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: energy-vault
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.energyvault.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: DayOne
   description: DayOne is delivering next-gen digital infrastructure to power the world’s most connected
     industries.
@@ -1459,7 +1716,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: dayone
-  matched_by: name-slug
+  matched_by: domain
+  url: https://dayonedc.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Deep Genomics
   description: Deep Genomics is using AI and machine learning to program safe and effective RNA therapies
     for genetic diseases.
@@ -1470,7 +1729,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: deep-genomics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.deepgenomics.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: ElasticRun
   description: ElasticRun is a B2B e-commerce platform connecting brands to rural consumers.
   sector: enterprise
@@ -1480,7 +1741,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: elasticrun
-  matched_by: name-slug
+  matched_by: domain
+  url: https://elastic.run/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: DoorDash
   description: DoorDash is connecting people with the best in their cities.
   sector: logistics
@@ -1490,7 +1753,9 @@ companies:
   slug: doordash
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.doordash.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: AutoStore
   description: AutoStore is using robotic technology to automate inventory storage.
   sector: logistics
@@ -1500,7 +1765,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: autostore
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.autostoresystem.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Vivid
   description: Vivid is building a financial community where customers can bank, save, invest, and learn.
   sector: fintech
@@ -1510,7 +1777,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vivid
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vivid.money/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Sorare
   description: Sorare is creating a new fantasy football experience to become ‘the game within the game.’
   sector: consumer
@@ -1520,7 +1789,9 @@ companies:
   slug: sorare
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sorare.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: TigerGraph
   description: TigerGraph is helping organizations extract insights from data through its scalable graph
     database.
@@ -1531,7 +1802,9 @@ companies:
   slug: tigergraph
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tigergraph.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Ziroom
   description: Ziroom is modernizing apartment rentals to create a better living experience.
   sector: proptech
@@ -1541,7 +1814,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ziroom
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ziroom.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Envelop Risk
   description: Envelop Risk is building the next generation of cyber reinsurance products.
   sector: fintech
@@ -1551,7 +1826,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: envelop-risk
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.enveloprisk.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Zeta
   description: Zeta is modernizing the software stack for banks.
   sector: fintech
@@ -1561,7 +1838,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zeta
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zeta.tech/us/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Jellysmack
   description: Jellysmack is using technology to identify and develop some of the world’s most talented
     video creators.
@@ -1572,7 +1851,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: jellysmack
-  matched_by: name-slug
+  matched_by: domain
+  url: https://jellysmack.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: MapBox
   description: MapBox is using precise location data to change the way we navigate the world.
   sector: enterprise
@@ -1582,7 +1863,9 @@ companies:
   slug: mapbox
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.mapbox.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: VNLIFE
   description: VNLIFE is transforming lives by simplifying mobile payments.
   sector: fintech
@@ -1603,7 +1886,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: plexium
-  matched_by: name-slug
+  matched_by: domain
+  url: https://plexium.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Nauto
   description: Nauto is using AI to make driving safer and smarter.
   sector: transportation
@@ -1613,7 +1898,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: nauto
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nauto.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: InterVenn
   description: InterVenn is leveraging an AI-powered clinical technology for glycoproteomics to transform
     healthcare.
@@ -1624,7 +1911,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: intervenn
-  matched_by: name-slug
+  matched_by: domain
+  url: https://intervenn.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Uber
   description: Uber is igniting opportunity by setting the world in motion.
   sector: transportation
@@ -1634,7 +1923,9 @@ companies:
   slug: uber
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.uber.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: 6sense
   description: 6sense is empowering B2B companies to identify and engage with the right customers.
   sector: enterprise
@@ -1644,7 +1935,9 @@ companies:
   slug: 6sense
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://6sense.com
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: ezCater
   description: ezCater is redefining corporate catering in its mission to feed every workplace.
   sector: logistics
@@ -1654,7 +1947,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ezcater
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ezcater.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Insitro
   description: Insitro is using machine learning and data generation at scale to transform the way that
     drugs are discovered and delivered to patients.
@@ -1665,7 +1960,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: insitro
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.insitro.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Yanolja
   description: Yanolja is making booking travel and hospitality services more convenient through its travel
     super app.
@@ -1677,6 +1974,8 @@ companies:
   is_api_provider: false
   slug: yanolja
   matched_by: name-slug
+  url: https://www.yanoljagroup.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Flexport
   description: Flexport is using technology and data to make global trade easier and more accessible for
     everyone.
@@ -1687,7 +1986,9 @@ companies:
   slug: flexport
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flexport.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Contentsquare
   description: Contentsquare is empowering brands to build better digital experiences for their customers.
   sector: enterprise
@@ -1697,7 +1998,9 @@ companies:
   slug: contentsquare
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://contentsquare.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Funding Societies
   description: Funding Societies is advancing financing, software, and neobanking to SMEs in Southeast
     Asia.
@@ -1708,7 +2011,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: funding-societies
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fundingsocieties.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Futurtec
   description: Futurtec is building an orthopedic surgery robotics platform to improve surgical efficiency.
   sector: health-tech
@@ -1718,7 +2023,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: futurtec
-  matched_by: name-slug
+  matched_by: domain
+  url: https://futurtec.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: GoPuff
   description: GoPuff is becoming the go-to solution for immediate, everyday needs.
   sector: logistics
@@ -1728,7 +2035,9 @@ companies:
   slug: gopuff
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gopuff.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: RightHand Robotics
   description: RightHand Robotics is building a data-driven picking platform for predictable order fulfillment.
   sector: logistics
@@ -1738,7 +2047,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: righthand-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://righthandrobotics.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Fetch
   description: Fetch is making it easy and fun for shoppers to earn rewards on everyday purchases.
   sector: consumer
@@ -1748,7 +2059,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: fetch
-  matched_by: name-slug
+  matched_by: domain
+  url: https://fetch.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: ArsenalBio
   description: ArsenalBio is fighting cancer by developing next generation T cell therapies.
   sector: health-tech
@@ -1758,7 +2071,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: arsenalbio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://arsenalbio.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Klook
   description: Klook is connecting the best of what a destination has to offer with travelers worldwide.
   sector: consumer
@@ -1768,7 +2083,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: klook
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.klook.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Pacaso
   description: Pacaso is modernizing how people buy and own a second home.
   sector: proptech
@@ -1778,7 +2095,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pacaso
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pacaso.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: MODIVO
   description: MODIVO is forging the future of fashion tech in Central and Eastern Europe.
   sector: consumer
@@ -1788,7 +2107,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: modivo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://modivo.pl/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: LevelBlue
   description: LevelBlue is ending cyber attacks on the endpoint and across the enterprise.
   sector: enterprise
@@ -1808,7 +2129,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: loggi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.loggi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Permutive
   description: Permutive is rethinking data to deliver personalized advertising experiences and protect
     privacy.
@@ -1819,7 +2142,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: permutive
-  matched_by: name-slug
+  matched_by: domain
+  url: https://permutive.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Tines
   description: Tines is empowering security and IT teams to build and manage critical workflows without
     writing a single line of code.
@@ -1830,7 +2155,9 @@ companies:
   slug: tines
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tines.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Ping An Good Doctor
   description: Ping An Good Doctor is building a comprehensive, one-stop healthcare ecosystem platform.
   sector: health-tech
@@ -1851,7 +2178,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pixis
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pixis.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cruise
   description: Cruise is seeking to build the world’s most advanced self-driving vehicles.
   sector: transportation
@@ -1882,7 +2211,9 @@ companies:
   slug: paytm
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://paytm.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Wiz
   description: Wiz is creating secure cloud environments that help organizations accelerate their business.
   sector: enterprise
@@ -1892,7 +2223,9 @@ companies:
   slug: wiz
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.wiz.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Zomato
   description: Zomato is delivering groceries and other essentials to their customers&#039; doorsteps.
   sector: consumer
@@ -1902,7 +2235,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zomato
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zomato.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: InMobi
   description: InMobi is helping brands understand, identify, engage, and acquire consumers.
   sector: enterprise
@@ -1912,16 +2247,21 @@ companies:
   in_network: true
   is_api_provider: false
   slug: inmobi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.inmobi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Digits
   description: Digits is building finance tools powered by their proprietary Living Model technology.
   sector: fintech
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/digits
-  in_network: false
-  is_api_provider: false
-  suggested_slug: digits
+  in_network: true
+  is_api_provider: true
+  url: https://digits.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: digits-com
+  matched_by: domain
 - name: Soul Machines
   description: Soul Machines is creating autonomously animated digital humans to create personalized customer
     experiences.
@@ -1932,7 +2272,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: soul-machines
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.soulmachines.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: WorkBoard
   description: WorkBoard is helping organizations define, align, and manage strategic outcomes more efficiently
     through its OKR platform and services.
@@ -1943,7 +2285,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: workboard
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.workboard.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Ethos
   description: Ethos is providing a faster, better, and easier life insurance experience for customers.
   sector: fintech
@@ -1953,7 +2297,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ethos
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ethos.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Tractable
   description: Tractable is applying AI computer vision to digitize property and casualty claims management
     and condition assessment for cars and homes.
@@ -1964,7 +2310,9 @@ companies:
   slug: tractable
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tractable.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Leyden Labs
   description: Leyden Labs is developing inhalable products to combat respiratory viruses.
   sector: health-tech
@@ -1984,16 +2332,21 @@ companies:
   slug: blockdaemon
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.blockdaemon.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: poolside
   description: poolside is building capable AI for software development.
   sector: enterprise
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/poolside
-  in_network: false
-  is_api_provider: false
-  suggested_slug: poolside
+  in_network: true
+  is_api_provider: true
+  url: https://poolside.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: poolside-ai
+  matched_by: domain
 - name: RapidAPI
   description: RapidAPI is empowering developers and enterprises to innovate and build software faster
     with APIs.
@@ -2004,7 +2357,9 @@ companies:
   slug: rapidapi
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://rapidapi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cambridge Mobile Telematics
   description: Cambridge Mobile Telematics is making the world’s roads safer.
   sector: transportation
@@ -2022,9 +2377,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/clearco
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clearco
+  url: https://www.clear.co/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: clearbanc
+  matched_by: domain
 - name: Ping An HealthKonnect
   description: Ping An HealthKonnect is building a tech-enabled managed care platform for providers of
     insurance and medical services.
@@ -2045,7 +2403,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: sobot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sobot.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Flipkart
   description: Flipkart is bringing more than 30 million products to Indian consumers via its e-commerce
     marketplace.
@@ -2056,7 +2416,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: flipkart
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flipkart.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: ZhongAn Insurance
   description: ZhongAn Insurance is applying technology to upgrade the insurance value chain.
   sector: fintech
@@ -2066,7 +2428,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zhongan-insurance
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zhongan.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: XAG
   description: XAG is scaling agriculture production by integrating AI and drones into farming practices.
   sector: frontier-tech
@@ -2076,7 +2440,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: xag
-  matched_by: name-slug
+  matched_by: domain
+  url: https://xa.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Paack
   description: Paack is harnessing advanced robotics to set new standards in last-mile delivery.
   sector: logistics
@@ -2086,7 +2452,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: paack
-  matched_by: name-slug
+  matched_by: domain
+  url: https://paack.co/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: NAVER Z
   description: NAVER Z is creating a metaverse for users to connect and create with one another.
   sector: consumer
@@ -2106,7 +2474,9 @@ companies:
   slug: opendoor
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.opendoor.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Guardant Health
   description: Guardant Health is using data to conquer cancer.
   sector: health-tech
@@ -2116,7 +2486,9 @@ companies:
   slug: guardant-health
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://guardanthealth.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Improbable
   description: Improbable is making it easier for more people to create extraordinary multiplayer games.
   sector: enterprise
@@ -2126,7 +2498,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: improbable
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.improbable.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OneTrust
   description: OneTrust is operationalizing trust for companies through its privacy, security and compliance
     platform.
@@ -2137,7 +2511,9 @@ companies:
   slug: onetrust
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.onetrust.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Trendyol
   description: Trendyol is combining e-commerce with logistics to reinvent shopping for millions of consumers
     in EMEA.
@@ -2148,7 +2524,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: trendyol
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.trendyol.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OneConnect
   description: OneConnect is making finance easier for small and medium-sized financial institutions.
   sector: fintech
@@ -2165,9 +2543,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/embark
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: embark
+  url: https://embarkvet.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: embarkvet
+  matched_by: domain
 - name: Weee!
   description: Weee! is providing value and convenience for locally sourced and hard-to-find ethnic groceries.
   sector: logistics
@@ -2177,7 +2558,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: weee
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sayweee.com
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Aurora
   description: Aurora is delivering the benefits of self-driving technology safely, quickly, and broadly.
   sector: transportation
@@ -2186,8 +2569,10 @@ companies:
   source: https://visionfund.com/portfolio/aurora
   in_network: true
   is_api_provider: false
-  slug: aurora
-  matched_by: name-slug
+  slug: aurora-innovation
+  matched_by: domain
+  url: https://aurora.tech/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Perplexity
   description: Perplexity AI is redefining web search with AI-powered answers, delivering knowledge with
     clarity and trust.
@@ -2198,7 +2583,9 @@ companies:
   slug: perplexity
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.perplexity.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: ByteDance
   description: ByteDance is enabling people to discover and create a world of content powered by technology.
   sector: consumer
@@ -2208,7 +2595,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: bytedance
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.bytedance.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Compass
   description: Compass is building the real estate industry&#039;s first-ever end-to-end platform.
   sector: proptech
@@ -2218,7 +2607,9 @@ companies:
   slug: compass
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.compass.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Elliptic
   description: Elliptic is making crypto safer for financial institutions and crypto companies.
   sector: fintech
@@ -2228,7 +2619,9 @@ companies:
   slug: elliptic
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.elliptic.co/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Aidoc
   description: Aidoc is transforming healthcare by enabling earlier disease detection and reducing the
     incidence of potentially fatal diagnostic errors.
@@ -2239,7 +2632,9 @@ companies:
   slug: aidoc
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.aidoc.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Flock Freight
   description: Flock Freight is using proprietary algorithms to optimize transit routes and pool multiple
     shipments together into one full truckload.
@@ -2250,7 +2645,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: flock-freight
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flockfreight.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Abogen
   description: Abogen is developing mRNA-based therapeutics for the treatment of cancer and infectious
     diseases.
@@ -2258,9 +2655,12 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/abogen
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: abogen
+  url: https://abogenbio.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: abogenbio
+  matched_by: domain
 - name: Standard AI
   description: Standard AI is transforming existing retail stores into checkout-free experiences by using
     computer vision and AI.
@@ -2271,7 +2671,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: standard-ai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://standard.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Tempo
   description: Tempo is providing personalized training through smart home gyms with 3D sensors and artificial
     intelligence.
@@ -2283,6 +2685,8 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  url: https://tempo.fit/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Extend
   description: Extend is providing extended warranties to help customers protect their purchases.
   sector: consumer
@@ -2292,7 +2696,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: extend
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.extend.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Variant Bio
   description: Variant Bio is developing therapies to improve global health by studying human genetics.
   sector: health-tech
@@ -2302,7 +2708,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: variant-bio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.variantbio.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Picsart
   description: Picsart is making it easy for creators to quickly make compelling content.
   sector: consumer
@@ -2312,7 +2720,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: picsart
-  matched_by: name-slug
+  matched_by: domain
+  url: https://picsart.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Elemy
   description: Elemy is transforming pediatric behavioral care through its tech-enabled platform.
   sector: consumer
@@ -2333,7 +2743,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: dott
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ridedott.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: ZenBusiness
   description: ZenBusiness is building a single platform to help entrepreneurs launch, run, and grow their
     businesses.
@@ -2344,7 +2756,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zenbusiness
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zenbusiness.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: CloudMinds
   description: CloudMinds is operating smart robots for people.
   sector: frontier-tech
@@ -2364,7 +2778,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: streamelements
-  matched_by: name-slug
+  matched_by: domain
+  url: https://streamelements.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Roivant
   description: Roivant is rapidly developing innovative medicines through a novel form of industrial organization
     in R&amp;D.
@@ -2375,7 +2791,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: roivant
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.roivant.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Ginkgo Bioworks
   description: Ginkgo Bioworks is using biology as a source of new chemical building blocks to commercialize
     novel products and materials.
@@ -2386,7 +2804,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ginkgo-bioworks
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ginkgo.bio/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: REEF
   description: REEF is creating urban mobility hubs for the on-demand world.
   sector: logistics
@@ -2396,7 +2816,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: reef
-  matched_by: name-slug
+  matched_by: domain
+  url: https://reeftechnology.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Collective Health
   description: Collective Health is making it effortless to navigate, understand, and pay for healthcare.
   sector: health-tech
@@ -2406,7 +2828,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: collective-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://collectivehealth.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: EDDA
   description: EDDA is integrating intelligent medical imaging analytics with robots for precision surgery.
   sector: health-tech
@@ -2416,7 +2840,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: edda
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.eddatech.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Netradyne
   description: Netradyne is using AI and edge computing to improve driver and fleet safety.
   sector: transportation
@@ -2426,7 +2852,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: netradyne
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.netradyne.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Meesho
   description: Meesho is enabling small businesses to succeed online.
   sector: consumer
@@ -2436,7 +2864,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: meesho
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.meesho.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Alibaba Local Services
   description: Alibaba Local Services is redefining urban lifestyle and bringing greater joy and convenience
     to consumers.
@@ -2458,7 +2888,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: keenon-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.keenon.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Sendcloud
   description: Sendcloud is helping e-commerce companies optimize shipping to meet today’s delivery demands.
   sector: logistics
@@ -2468,7 +2900,9 @@ companies:
   slug: sendcloud
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.sendcloud.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Formlabs
   description: Formlabs is expanding access to 3D printing, so anyone can make anything.
   sector: frontier-tech
@@ -2478,7 +2912,9 @@ companies:
   slug: formlabs
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://formlabs.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Misfits Market
   description: Misfits Market is making high-quality food more affordable and accessible.
   sector: logistics
@@ -2488,7 +2924,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: misfits-market
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.misfitsmarket.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Peak
   description: Peak is deploying decision intelligence to supercharge commercial decision making and grow
     businesses.
@@ -2500,6 +2938,8 @@ companies:
   is_api_provider: false
   slug: peak
   matched_by: name-slug
+  url: https://peak.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Go1
   description: Go1 is transforming corporate education through its subscription to learning resources
     from the world’s top training providers.
@@ -2510,7 +2950,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: go1
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.go1.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OakNorth
   description: OakNorth is transforming commercial lending through big data and machine learning.
   sector: fintech
@@ -2521,6 +2963,8 @@ companies:
   is_api_provider: false
   slug: oaknorth
   matched_by: name-slug
+  url: https://oaknorth.co/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Wiliot
   description: Wiliot is engineering intelligence and connectivity into trillions of everyday things,
     increasing safety, efficiency, and sustainability.
@@ -2531,7 +2975,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: wiliot
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.wiliot.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cityblock
   description: Cityblock is delivering tech-driven care in communities with complex health and social
     needs.
@@ -2539,9 +2985,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cityblock
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cityblock
+  url: https://www.cityblock.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: city-block
+  matched_by: domain
 - name: Nvidia
   description: Nvidia is igniting modern AI to power the next era of computing.
   sector: frontier-tech
@@ -2551,7 +3000,9 @@ companies:
   slug: nvidia
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.nvidia.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Plenty
   description: Plenty is growing flavorful, healthy, and fresh produce through its vertical farming technology.
   sector: consumer
@@ -2561,7 +3012,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: plenty
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.plenty.ag/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Helion
   description: Helion Energy is developing revolutionary nuclear fusion technology to generate clean,
     limitless energy.
@@ -2572,7 +3025,9 @@ companies:
   slug: helion
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.helionenergy.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Swiggy
   description: Swiggy is improving the quality of life of urban consumers by delivering unparalleled convenience.
   sector: logistics
@@ -2582,7 +3037,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: swiggy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.swiggy.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: AccelByte
   description: Accelbyte is enabling developers to quickly build, scale, and operate live service games.
   sector: enterprise
@@ -2592,7 +3049,9 @@ companies:
   slug: accelbyte
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://accelbyte.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: InfStones
   description: InfStones is providing foundational blockchain infrastructure to power Web3 innovation.
   sector: fintech
@@ -2602,7 +3061,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: infstones
-  matched_by: name-slug
+  matched_by: domain
+  url: https://infstones.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: XMOV
   description: XMOV is building metaverse infrastructure through its one-stop virtual content creation
     platform.
@@ -2614,6 +3075,8 @@ companies:
   is_api_provider: false
   slug: xmov
   matched_by: name-slug
+  url: https://www.xmov.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Iyuno
   description: Iyuno is providing technology-driven localization solutions to the media and entertainment
     industry.
@@ -2624,7 +3087,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: iyuno
-  matched_by: name-slug
+  matched_by: domain
+  url: https://iyuno.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Roofstock
   description: Roofstock is accelerating innovation in real estate investing with its data-driven digital
     solutions.
@@ -2635,7 +3100,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: roofstock
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.roofstock.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: eToro
   description: eToro is connecting users to global markets and to each other so that everyone can invest
     in a simple and transparent way.
@@ -2646,7 +3113,9 @@ companies:
   slug: etoro
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.etoro.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Seer
   description: Seer is developing the tools researchers need to discover and understand the proteome.
   sector: health-tech
@@ -2656,7 +3125,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: seer
-  matched_by: name-slug
+  matched_by: domain
+  url: https://seer.bio/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Ventus Therapeutics
   description: Ventus Therapeutics is using computational tools to unlock elusive drug targets that address
     human disease.
@@ -2664,9 +3135,12 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/ventus-therapeutics
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ventus-therapeutics
+  url: https://www.ventustx.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  slug: ventus-tx
+  matched_by: domain
 - name: XtalPi
   description: XtalPi is transforming drug discovery and development through quantum physics, artificial
     intelligence, and cloud computing.
@@ -2677,7 +3151,9 @@ companies:
   slug: xtalpi
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.xtalpi.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cato Networks
   description: Cato Networks is eliminating the complexity, rigidity, and risks long associated with enterprise
     networking and security.
@@ -2688,7 +3164,9 @@ companies:
   slug: cato-networks
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.catonetworks.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Gousto
   description: Gousto is a recipe box company helping people to eat in a more healthy and sustainable
     way.
@@ -2699,17 +3177,21 @@ companies:
   in_network: true
   is_api_provider: false
   slug: gousto
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gousto.co.uk/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Auto1
   description: Auto1 is making it fast and efficient to buy and sell used cars.
   sector: consumer
   region: EMEA
   status: ipo
   source: https://visionfund.com/portfolio/auto1
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: auto1
-  matched_by: name-slug
+  url: https://www.auto1.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  x-name-collision: auto1
+  suggested_slug: auto1-com
 - name: CARS24
   description: CARS24 is providing buyers and sellers of used cars with a quick, easy, and hassle-free
     transaction online.
@@ -2720,7 +3202,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cars24
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cars24.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Kigen
   description: Kigen is providing security for trillions of connected things with its eSIM and iSIM technologies.
   sector: frontier-tech
@@ -2730,7 +3214,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kigen
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kigen.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Clutter
   description: Clutter is changing the way people store and manage their physical belongings.
   sector: logistics
@@ -2740,7 +3226,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: clutter
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.clutter.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cerebral
   description: Cerebral is providing comprehensive mental health care with therapy, counseling, and medication.
   sector: consumer
@@ -2750,7 +3238,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: cerebral
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cerebral.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Symbotic
   description: Symbotic is revolutionizing warehouse automation with AI-powered robotics systems.
   sector: logistics
@@ -2760,7 +3250,9 @@ companies:
   slug: symbotic
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.symbotic.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cargomatic
   description: Cargomatic is transforming freight logistics by connecting shippers and carriers through
     real-time matching and automation.
@@ -2771,7 +3263,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: cargomatic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cargomatic.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Arm
   description: Arm is using technology to architect a smarter world.
   sector: frontier-tech
@@ -2781,7 +3275,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: arm
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.arm.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: UPSIDE Foods
   description: UPSIDE Foods is reimagining how meat is made by harvesting it from cells instead of animals.
   sector: consumer
@@ -2791,7 +3287,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: upside-foods
-  matched_by: name-slug
+  matched_by: domain
+  url: https://upsidefoods.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: CAST AI
   description: CAST AI is optimizing cloud infrastructure with AI‑driven automation that reduces costs
     by half and boosts productivity.
@@ -2812,7 +3310,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: forterra
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.forterra.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: PayPay
   description: PayPay is transforming everyday commerce in Japan with secure, seamless mobile payments.
   sector: fintech
@@ -2820,9 +3320,11 @@ companies:
   status: ipo
   source: https://visionfund.com/portfolio/paypay
   in_network: true
-  is_api_provider: true
-  slug: paypay
-  matched_by: name-slug
+  is_api_provider: false
+  slug: kddi
+  matched_by: domain
+  url: https://paypay.ne.jp/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Andela
   description: Andela is building a global talent marketplace that connects top organizations with technologists.
   sector: enterprise
@@ -2832,7 +3334,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: andela
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.andela.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Swell Energy
   description: Swell Energy is creating a smarter grid through cost effective, clean, and flexible energy
     solutions.
@@ -2843,7 +3347,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: swell-energy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://swellenergy.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Coupang
   description: Coupang is transforming e-commerce end-to-end.
   sector: consumer
@@ -2853,7 +3359,9 @@ companies:
   slug: coupang
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.coupang.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Dingdong Maicai
   description: DingDong Fresh is delivering groceries through its on-demand e-commerce platform in China.
   sector: consumer
@@ -2873,7 +3381,9 @@ companies:
   slug: slack
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://slack.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Metsera
   description: Metsera is accelerating next generation medicines and combination therapies, shaping the
     future treatment of obesity and metabolic diseases.
@@ -2884,7 +3394,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: metsera
-  matched_by: name-slug
+  matched_by: domain
+  url: https://metsera.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OfBusiness
   description: OfBusiness is an e-commerce and financing platform helping small and medium businesses
     procure raw materials efficiently.
@@ -2895,7 +3407,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ofbusiness
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ofbusiness.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OpusClip
   description: OpusClip is delivering one-click, agentic video editing solutions that eliminate manual
     work for content creators.
@@ -2905,8 +3419,10 @@ companies:
   source: https://visionfund.com/portfolio/opusclip
   in_network: true
   is_api_provider: true
-  slug: opusclip
-  matched_by: name-slug
+  slug: opus
+  matched_by: domain
+  url: https://www.opus.pro/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Zhangmen
   description: Zhangmen is personalizing one-on-one online tutoring for students across China.
   sector: edtech
@@ -2916,7 +3432,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: zhangmen
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.zhangmen.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Clarify Health
   description: Clarify Health is powering better care with its healthcare analytics and value-based payments
     platform.
@@ -2927,7 +3445,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: clarify-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://clarifyhealth.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Nextbite
   description: Nextbite is helping restaurants and virtual kitchens increase efficiency.
   sector: consumer
@@ -2938,6 +3458,8 @@ companies:
   is_api_provider: false
   slug: nextbite
   matched_by: name-slug
+  url: https://www.nextbite.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: TabaPay
   description: TabaPay is enabling secure, reliable, and low-cost instant payments and payouts for fintechs.
   sector: fintech
@@ -2947,7 +3469,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: tabapay
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tabapay.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Nature's Fynd
   description: Nature’s Fynd is using versatile fungi-based proteins to create delicious, nutritious,
     and sustainable foods.
@@ -2968,7 +3492,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: encoded-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://encoded.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Vir
   description: Vir is integrating breakthroughs in science, technology, and medicine to transform the
     treatment of infectious diseases.
@@ -2979,7 +3505,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vir
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.vir.bio/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Unacademy
   description: Unacademy is empowering the world’s youth through online lessons and specialized courses.
   sector: edtech
@@ -2989,7 +3517,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: unacademy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://unacademy.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Plume
   description: Plume enables smarter connectivity and experiences in homes and beyond through its cloud
     data platform.
@@ -3000,7 +3530,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: plume
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.plume.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Mindtickle
   description: Mindtickle is enabling successful sales team through its sales readiness platform.
   sector: enterprise
@@ -3010,7 +3542,9 @@ companies:
   slug: mindtickle
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.mindtickle.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Patsnap
   description: Patsnap is providing innovation and intellectual property intelligence to help customers
     increase productivity and innovate more effectively.
@@ -3021,7 +3555,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: patsnap
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.patsnap.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Umoja
   description: Umoja is developing a new approach to cancer therapy that retools a patient’s immune system.
   sector: health-tech
@@ -3031,7 +3567,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: umoja
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.umoja-biopharma.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Socra AI
   description: Socra AI is using AI to offer personalized instruction to students globally.
   sector: edtech
@@ -3040,8 +3578,10 @@ companies:
   source: https://visionfund.com/portfolio/socra-ai
   in_network: true
   is_api_provider: false
-  slug: socra-ai
-  matched_by: name-slug
+  slug: riiid
+  matched_by: domain
+  url: https://socra.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Vendr
   description: Vendr is changing how companies find, buy, and manage software through its SaaS buying
     platform.
@@ -3052,7 +3592,9 @@ companies:
   slug: vendr
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.vendr.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Keep
   description: Keep is transforming fitness in China through its online training courses, connected fitness
     devices, and branded accessories.
@@ -3060,10 +3602,12 @@ companies:
   region: Asia
   status: ipo
   source: https://visionfund.com/portfolio/keep
-  slug: keep
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  url: https://keep.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
+  x-name-collision: keep
+  suggested_slug: keep-com
 - name: CommerceIQ
   description: CommerceIQ is unlocking profitable ecommerce growth for consumer brands through intelligent
     automation.
@@ -3074,7 +3618,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: commerceiq
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.commerceiq.ai/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Better
   description: Better is unlocking new opportunities throughout the homeownership journey.
   sector: fintech
@@ -3084,7 +3630,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: better
-  matched_by: name-slug
+  matched_by: domain
+  url: https://better.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Animoca Brands
   description: Animoca Brands is constructing an open metaverse where players can build and monetize their
     creations.
@@ -3095,7 +3643,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: animoca-brands
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.animocabrands.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: DriveWealth
   description: DriveWealth is helping banks and payment apps bring investing to everyone, everywhere.
   sector: fintech
@@ -3105,7 +3655,9 @@ companies:
   slug: drivewealth
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.drivewealth.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Big Health
   description: Big Health is using digital therapeutics to expand access to non-drug alternatives for
     mental health.
@@ -3116,7 +3668,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: big-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://bighealth.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Wellhub
   description: Wellhub is defeating inactivity through its corporate fitness platform.
   sector: consumer
@@ -3126,7 +3680,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: wellhub
-  matched_by: name-slug
+  matched_by: domain
+  url: https://wellhub.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: DiDi
   description: DiDi is building a better journey for the world.
   sector: transportation
@@ -3135,8 +3691,10 @@ companies:
   source: https://visionfund.com/portfolio/didi
   in_network: true
   is_api_provider: false
-  slug: didi
-  matched_by: name-slug
+  slug: didi-autonomous
+  matched_by: domain
+  url: https://www.didiglobal.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: DiDi Autonomous
   description: DiDi Autonomous is bringing safer and more efficient commercial autonomous fleets to the
     world’s largest cities.
@@ -3156,9 +3714,11 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/veho
   in_network: true
-  is_api_provider: true
-  slug: veho
-  matched_by: name-slug
+  is_api_provider: false
+  slug: shipveho
+  matched_by: domain
+  url: https://www.shipveho.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Repertoire Immune Medicines
   description: Repertoire Immune Medicines is decoding the immune synapse to create novel immune therapies
     for cancer, immune disorders, infectious disease, and other serious diseases.
@@ -3169,7 +3729,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: repertoire-immune-medicines
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.repertoire.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Class Technologies
   description: Class Technologies is enhancing virtual classrooms by adding teaching and learning tools
     to Zoom.
@@ -3178,9 +3740,11 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/class-technologies
   in_network: true
-  is_api_provider: false
-  slug: class-technologies
-  matched_by: name-slug
+  is_api_provider: true
+  slug: class-fka-classedu
+  matched_by: domain
+  url: https://www.class.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Fuze Health
   description: Fuze Health is building the world&#039;s most patient-centric pharmacy.
   sector: health-tech
@@ -3190,7 +3754,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: fuze-health
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.fuzehealth.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: 7shifts
   description: 7shifts is simplifying team management to help restauranters improve operating performance.
   sector: enterprise
@@ -3200,7 +3766,9 @@ companies:
   slug: 7shifts
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.7shifts.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Human Interest
   description: Human Interest is helping employees in small and medium-sized businesses save for retirement.
   sector: fintech
@@ -3210,7 +3778,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: human-interest
-  matched_by: name-slug
+  matched_by: domain
+  url: https://humaninterest.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: ElevateBio
   description: ElevateBio is powering the development of innovative cell and gene therapies.
   sector: health-tech
@@ -3220,7 +3790,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: elevatebio
-  matched_by: name-slug
+  matched_by: domain
+  url: https://elevate.bio/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: MinIO
   description: MinIO is enabling enterprises to store data across public, private and edge clouds.
   sector: enterprise
@@ -3229,8 +3801,10 @@ companies:
   source: https://visionfund.com/portfolio/minio
   in_network: true
   is_api_provider: false
-  slug: minio
-  matched_by: name-slug
+  slug: cloud-storage
+  matched_by: domain
+  url: https://www.min.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Sendbird
   description: Sendbird is powering mobile engagement and communication for some of the largest brands
     in the world.
@@ -3241,7 +3815,9 @@ companies:
   slug: sendbird
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sendbird.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Glean
   description: Glean is helping everyone work smarter with AI through its Work AI Platform.
   sector: enterprise
@@ -3251,7 +3827,9 @@ companies:
   slug: glean
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.glean.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: AlphaSense
   description: AlphaSense is helping companies remove uncertainty from decision-making through its market
     intelligence and search platform
@@ -3273,7 +3851,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: claroty
-  matched_by: name-slug
+  matched_by: domain
+  url: https://claroty.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Skedulo
   description: Skedulo is empowering organizations to manage, engage, and analyze their deskless workforce.
   sector: enterprise
@@ -3283,7 +3863,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: skedulo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.skedulo.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Brain Corp
   description: Brain Corp is developing intelligent, autonomous navigation systems for everyday machines.
   sector: frontier-tech
@@ -3293,7 +3875,9 @@ companies:
   slug: brain-corp
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.braincorp.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Cohesity
   description: Cohesity is radically simplifying how organizations manage their data.
   sector: enterprise
@@ -3303,7 +3887,9 @@ companies:
   slug: cohesity
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cohesity.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Huice
   description: Huice is empowering e-commerce merchants in China through its ERP SaaS solutions.
   sector: enterprise
@@ -3323,7 +3909,9 @@ companies:
   slug: getaround
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://getaround.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Databricks
   description: Databricks is helping teams build, deploy, and scale AI with trusted data.
   sector: enterprise
@@ -3333,7 +3921,9 @@ companies:
   slug: databricks
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.databricks.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Esusu
   description: Esusu is building a platform for renter financial health.
   sector: enterprise
@@ -3343,7 +3933,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: esusu
-  matched_by: name-slug
+  matched_by: domain
+  url: https://esusurent.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: GoTo
   description: GoTo is providing e-commerce, financial, and on-demand services to consumers in Indonesia.
   sector: consumer
@@ -3351,9 +3943,11 @@ companies:
   status: ipo
   source: https://visionfund.com/portfolio/goto
   in_network: true
-  is_api_provider: false
-  slug: goto
-  matched_by: name-slug
+  is_api_provider: true
+  slug: goto-gojek
+  matched_by: domain
+  url: https://www.gotocompany.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Grab
   description: Grab is connecting millions of consumers to millions of drivers, merchants, and businesses
     in Southeast Asia.
@@ -3364,7 +3958,9 @@ companies:
   slug: grab
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.grab.com/sg/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Pax8
   description: Pax8 is modernizing how companies buy, sell, and manage cloud products.
   sector: enterprise
@@ -3374,7 +3970,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: pax8
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.pax8.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Petuum
   description: Petuum is industrializing AI technology and transforming enterprises across all industries.
   sector: enterprise
@@ -3394,7 +3992,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: globality
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.globality.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Vividion Therapeutics
   description: Vividion Therapeutics is utilizing its novel discovery technologies to unlock undruggable
     targets for oncology and immune disorders.
@@ -3405,7 +4005,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vividion-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vividion.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Redis
   description: Redis is helping organizations quickly process, analyze, predict, and take action with
     real-time data.
@@ -3416,7 +4018,9 @@ companies:
   slug: redis
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://redis.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: LTK
   description: LTK is transforming commerce with creator-guided shopping.
   sector: consumer
@@ -3426,7 +4030,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ltk
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.shopltk.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: OpenAI
   description: OpenAI is creating safe AGI that benefits all of humanity
   sector: enterprise
@@ -3436,7 +4042,9 @@ companies:
   slug: openai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://openai.com/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Consensys
   description: Consensys is unlocking Web3 by building open, efficient, and secure blockchain infrastructure
     and applications.
@@ -3447,7 +4055,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: consensys
-  matched_by: name-slug
+  matched_by: domain
+  url: https://consensys.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: JD Logistics
   description: JD Logistics is providing technology-driven integrated supply chain solutions in China.
   sector: logistics
@@ -3456,8 +4066,10 @@ companies:
   source: https://visionfund.com/portfolio/jd-logistics
   in_network: true
   is_api_provider: false
-  slug: jd-logistics
-  matched_by: name-slug
+  slug: jd-com
+  matched_by: domain
+  url: https://www.jdl.com
+  x-url-source: softbank-vision-fund company pages (sitemap)
 - name: Juspay
   description: Juspay is unifying payment options to offer a seamless, secure, and reliable digital experience.
   sector: fintech
@@ -3467,4 +4079,6 @@ companies:
   slug: juspay
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://juspay.io/
+  x-url-source: softbank-vision-fund company pages (sitemap)
