@@ -3,9 +3,9 @@ method: searched
 source: https://visionfund.com/portfolio
 summary:
   portfolio_total: 333
-  in_network: 333
-  api_providers: 87
-  missing: 0
+  in_network: 315
+  api_providers: 94
+  missing: 18
   stubs_created: 0
 companies:
 - name: Guazi
@@ -363,10 +363,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/remote
-  in_network: true
-  is_api_provider: true
-  slug: remote
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: remote
 - name: Apollo Agriculture
   description: Apollo Agriculture is a farming platform that helps small-scale farmers maximize their
     profits.
@@ -385,10 +384,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/sambanova
-  slug: sambanova
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: sambanova
 - name: OurCrowd
   description: OurCrowd is providing a better way for individuals and institutions to invest in startups.
   sector: fintech
@@ -405,10 +403,9 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/vestiaire-collective
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: vestiaire-collective
-  matched_by: name-slug
+  suggested_slug: vestiaire-collective
 - name: Gaussian Robotics
   description: Gaussian Robotics is developing autonomous robots for commercial property cleaning.
   sector: frontier-tech
@@ -467,10 +464,9 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/dice
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: dice
-  matched_by: name-slug
+  suggested_slug: dice
 - name: Behavox
   description: Behavox is using AI to help businesses uncover and address hidden regulatory risks.
   sector: enterprise
@@ -612,10 +608,9 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/hesi
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: hesi
-  matched_by: name-slug
+  suggested_slug: hesi
 - name: Trax
   description: Trax is harnessing the power of digital technologies for brands, retailers, and shoppers.
   sector: enterprise
@@ -717,10 +712,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/dewpoint
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: dewpoint
-  matched_by: name-slug
+  suggested_slug: dewpoint
 - name: Dianxiaomi
   description: Dianxiaomi is making cross-border e-commerce more efficient through its suite of SaaS products.
   sector: enterprise
@@ -761,7 +755,7 @@ companies:
   source: https://visionfund.com/portfolio/polygon
   in_network: false
   is_api_provider: false
-  suggested_slug: polygon-technology
+  suggested_slug: polygon
 - name: fabric
   description: fabric is developing a flexible and headless platform for modern e-commerce experiences.
   sector: enterprise
@@ -885,10 +879,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/vuori
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: vuori
-  matched_by: name-slug
+  suggested_slug: vuori
 - name: Ola Electric
   description: Ola Electric is driving India’s EV adoption at scale.
   sector: transportation
@@ -1104,10 +1097,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/fountain
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fountain
-  matched_by: name-slug
+  suggested_slug: fountain
 - name: bloXroute
   description: bloXroute is enabling faster transaction speeds for customers in DeFi Trading.
   sector: fintech
@@ -1136,10 +1128,9 @@ companies:
   region: Americas
   status: ipo
   source: https://visionfund.com/portfolio/recursion
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: recursion
-  matched_by: name-slug
+  suggested_slug: recursion
 - name: Papa
   description: Papa is improving health and everyday life through a new model of at-home companionship
     and care.
@@ -1261,10 +1252,9 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/jobandtalent
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: job-and-talent
-  matched_by: name-slug
+  suggested_slug: job-and-talent
 - name: Observe.AI
   description: Observe.AI is empowering contact centers with AI to improve customer experience and drive
     revenue.
@@ -1273,7 +1263,7 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/observe-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: observeai
   matched_by: name-slug
 - name: Perk
@@ -1283,7 +1273,7 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/perk
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: perk
   matched_by: name-slug
 - name: Mathem
@@ -1435,7 +1425,7 @@ companies:
   source: https://visionfund.com/portfolio/eightfold-ai
   slug: eightfold-ai
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: FirstCry
   description: FirstCry is striving to build the world’s largest community and e-commerce platform for
@@ -1796,7 +1786,7 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/modivo
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: modivo
   matched_by: name-slug
 - name: LevelBlue
@@ -1816,7 +1806,7 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/loggi
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: loggi
   matched_by: name-slug
 - name: Permutive
@@ -1929,10 +1919,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/digits
-  in_network: true
-  is_api_provider: true
-  slug: digits-com
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  suggested_slug: digits
 - name: Soul Machines
   description: Soul Machines is creating autonomously animated digital humans to create personalized customer
     experiences.
@@ -1994,7 +1983,7 @@ companies:
   source: https://visionfund.com/portfolio/blockdaemon
   slug: blockdaemon
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: poolside
   description: poolside is building capable AI for software development.
@@ -2002,10 +1991,9 @@ companies:
   region: EMEA
   status: active
   source: https://visionfund.com/portfolio/poolside
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: poolside
-  matched_by: name-slug
+  suggested_slug: poolside
 - name: RapidAPI
   description: RapidAPI is empowering developers and enterprises to innovate and build software faster
     with APIs.
@@ -2034,10 +2022,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/clearco
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: clearco
-  matched_by: name-slug
+  suggested_slug: clearco
 - name: Ping An HealthKonnect
   description: Ping An HealthKonnect is building a tech-enabled managed care platform for providers of
     insurance and medical services.
@@ -2097,7 +2084,7 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/paack
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: paack
   matched_by: name-slug
 - name: NAVER Z
@@ -2178,10 +2165,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/embark
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: embark
-  matched_by: name-slug
+  suggested_slug: embark
 - name: Weee!
   description: Weee! is providing value and convenience for locally sourced and hard-to-find ethnic groceries.
   sector: logistics
@@ -2272,10 +2258,9 @@ companies:
   region: Asia
   status: active
   source: https://visionfund.com/portfolio/abogen
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: abogen
-  matched_by: name-slug
+  suggested_slug: abogen
 - name: Standard AI
   description: Standard AI is transforming existing retail stores into checkout-free experiences by using
     computer vision and AI.
@@ -2305,7 +2290,7 @@ companies:
   status: active
   source: https://visionfund.com/portfolio/extend
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: extend
   matched_by: name-slug
 - name: Variant Bio
@@ -2554,10 +2539,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/cityblock
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cityblock
-  matched_by: name-slug
+  suggested_slug: cityblock
 - name: Nvidia
   description: Nvidia is igniting modern AI to power the next era of computing.
   sector: frontier-tech
@@ -2680,10 +2664,9 @@ companies:
   region: Americas
   status: active
   source: https://visionfund.com/portfolio/ventus-therapeutics
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: ventus-therapeutics
-  matched_by: name-slug
+  suggested_slug: ventus-therapeutics
 - name: XtalPi
   description: XtalPi is transforming drug discovery and development through quantum physics, artificial
     intelligence, and cloud computing.
@@ -3026,7 +3009,7 @@ companies:
   source: https://visionfund.com/portfolio/mindtickle
   slug: mindtickle
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Patsnap
   description: Patsnap is providing innovation and intellectual property intelligence to help customers
@@ -3319,7 +3302,7 @@ companies:
   source: https://visionfund.com/portfolio/cohesity
   slug: cohesity
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Huice
   description: Huice is empowering e-commerce merchants in China through its ERP SaaS solutions.
@@ -3432,7 +3415,7 @@ companies:
   source: https://visionfund.com/portfolio/redis
   slug: redis
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: LTK
   description: LTK is transforming commerce with creator-guided shopping.
