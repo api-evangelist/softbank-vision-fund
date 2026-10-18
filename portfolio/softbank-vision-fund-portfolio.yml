@@ -319,6 +319,7 @@ companies:
   is_api_provider: false
   slug: kabbage
   matched_by: name-slug
+  x-url-candidate: https://www.kabbage.co/
 - name: ShipBob
   description: ShipBob is providing global fulfillment so e-commerce brands can focus on growing their
     business.
@@ -491,6 +492,7 @@ companies:
   is_api_provider: false
   slug: gaussian-robotics
   matched_by: name-slug
+  x-url-candidate: https://www.gaussianrobotics.com/
 - name: Clikalia
   description: Clikalia is bringing digitalization and transparency to real estate in Europe and Latin
     America.
@@ -610,8 +612,8 @@ companies:
   is_api_provider: false
   url: https://www.perchhq.com/
   x-url-source: softbank-vision-fund company pages (sitemap)
-  x-name-collision: perch
   suggested_slug: perchhq-com
+  x-name-collision: perch
 - name: Whatfix
   description: Whatfix is helping businesses improve productivity by increasing employee adoption of software.
   sector: enterprise
@@ -719,6 +721,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: hesi
+  x-url-candidate: https://hesi.com
 - name: Trax
   description: Trax is harnessing the power of digital technologies for brands, retailers, and shoppers.
   sector: enterprise
@@ -1361,7 +1364,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: vipthink
-  matched_by: name-slug
+  matched_by: domain
+  url: https://vipthink.net
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Block Renovation
   description: Block Renovation is creating a seamless and predictable experience for home renovations.
   sector: proptech
@@ -1482,6 +1487,7 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: job-and-talent
+  x-url-candidate: https://jobnet.ag/Solutions/Artificial-Intelligence/
 - name: Observe.AI
   description: Observe.AI is empowering contact centers with AI to improve customer experience and drive
     revenue.
@@ -1492,7 +1498,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: observeai
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.observe.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Perk
   description: Perk is using AI to pioneer the future of business travel for small and midsize companies.
   sector: enterprise
@@ -1576,7 +1584,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: ai-medical-service
-  matched_by: name-slug
+  matched_by: domain
+  url: https://en.ai-ms.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: CoachHub
   description: CoachHub is transforming people and organizations through its scalable, digital coaching
     programs.
@@ -2119,7 +2129,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: levelblue
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.levelblue.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Loggi
   description: Loggi is using technology to connect Brazil and reinvent logistics.
   sector: logistics
@@ -2322,7 +2334,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: leyden-labs
-  matched_by: name-slug
+  matched_by: domain
+  url: https://leydenlabs.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Blockdaemon
   description: Blockdaemon is building cutting-edge infrastructure to power the blockchain economy.
   sector: fintech
@@ -2368,8 +2382,10 @@ companies:
   source: https://visionfund.com/portfolio/cambridge-mobile-telematics
   in_network: true
   is_api_provider: false
-  slug: cambridge-mobile-telematics
-  matched_by: name-slug
+  slug: amodo
+  matched_by: domain
+  url: https://www.cmtelematics.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Clearco
   description: Clearco is providing capital, advice, and other services to help founders grow their e-commerce
     businesses.
@@ -2464,7 +2480,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: naver-z
-  matched_by: name-slug
+  matched_by: domain
+  url: https://naverz-corp.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Opendoor
   description: Opendoor is reinventing the way people buy and sell their homes.
   sector: proptech
@@ -2536,7 +2554,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: oneconnect
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ocft.com/en/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Embark
   description: Embark is building a genetics discovery engine for personalized dog care.
   sector: consumer
@@ -3190,8 +3210,8 @@ companies:
   is_api_provider: false
   url: https://www.auto1.com/
   x-url-source: softbank-vision-fund company pages (sitemap)
-  x-name-collision: auto1
   suggested_slug: auto1-com
+  x-name-collision: auto1
 - name: CARS24
   description: CARS24 is providing buyers and sellers of used cars with a quick, easy, and hassle-free
     transaction online.
@@ -3300,7 +3320,9 @@ companies:
   slug: cast-ai
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cast.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Forterra
   description: Forterra is developing autonomous and robotics solutions for transportation and logistics.
   sector: transportation
@@ -3606,8 +3628,8 @@ companies:
   is_api_provider: false
   url: https://keep.com/
   x-url-source: softbank-vision-fund company pages (sitemap)
-  x-name-collision: keep
   suggested_slug: keep-com
+  x-name-collision: keep
 - name: CommerceIQ
   description: CommerceIQ is unlocking profitable ecommerce growth for consumer brands through intelligent
     automation.
@@ -3840,7 +3862,9 @@ companies:
   slug: alphasense
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.alpha-sense.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Claroty
   description: Claroty is working to secure cyber-physical systems across the Extended Internet of Things
     (XIoT).
